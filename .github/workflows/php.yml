@@ -9,10 +9,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      # - name: Checkout Code
-      #   uses: actions/checkout@v4
-      #   with:
-      #     ref: dev
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          ref: dev
       
       # - name: Setup PHP
       #   uses: shivammathur/setup-php@v2
