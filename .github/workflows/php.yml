@@ -19,17 +19,17 @@ jobs:
         with:
           php-version: '7.4'
           
-      # - name: Execute PHP script
-      #   run: |
-      #     php collect.php
-      #     git config --global user.email "yangleduo@gmail.com"
-      #     git config --global user.name "yangleduo"
-      #     git config credential.helper store
-      #     git add -A
-      #     git commit -m "yangleduo Regularly updated - $(TZ='Asia/Tehran' date '+%Y-%m-%d %H:%M:%S')"
-      #     git push
+      - name: Execute PHP script
+        run: |
+          php collect.php
+          git config --global user.email "yangleduo@gmail.com"
+          git config --global user.name "yangleduo"
+          git config credential.helper store
+          git add -A
+          git commit -m "yangleduo Regularly updated - $(TZ='Asia/Tehran' date '+%Y-%m-%d %H:%M:%S')"
+          git push
           
-      - name: Deploy to Staging server
+      - name: Transfer File
         uses: easingthemes/ssh-deploy@main
         with:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
@@ -39,10 +39,21 @@ jobs:
           REMOTE_USER: ${{ secrets.REMOTE_USER }}
           TARGET: ${{ secrets.REMOTE_TARGET }}
           SCRIPT_BEFORE: |
-            whoami
-            ls -al
-          SCRIPT_AFTER: |
             cd /home/github
-            pwd
-            ls -al
-            echo $RSYNC_STDOUT
+            rm -rf normal/ base64/
+          SCRIPT_AFTER: |
+            cd /home/github/normal
+            mv vemss /usr/local/nginx/wordpress_tmp/wp-content/uploads/v2ray/normal/date "+%Y%m%d"`_vemss
+            mv vless /usr/local/nginx/wordpress_tmp/wp-content/uploads/v2ray/normal/date "+%Y%m%d"`_vless
+            mv shadowsocks /usr/local/nginx/wordpress_tmp/wp-content/uploads/v2ray/normal/date "+%Y%m%d"`_shadowsocks
+            mv trojan /usr/local/nginx/wordpress_tmp/wp-content/uploads/v2ray/normal/date "+%Y%m%d"`_trojan
+            mv hysteria2 /usr/local/nginx/wordpress_tmp/wp-content/uploads/v2ray/normal/date "+%Y%m%d"`_hysteria2
+            cd /home/github/base64
+            mv vemss /usr/local/nginx/wordpress_tmp/wp-content/uploads/v2ray/base64/date "+%Y%m%d"`_vemss
+            mv vless /usr/local/nginx/wordpress_tmp/wp-content/uploads/v2ray/base64/date "+%Y%m%d"`_vless
+            mv shadowsocks /usr/local/nginx/wordpress_tmp/wp-content/uploads/v2ray/base64/date "+%Y%m%d"`_shadowsocks
+            mv trojan /usr/local/nginx/wordpress_tmp/wp-content/uploads/v2ray/base64/date "+%Y%m%d"`_trojan
+            mv hysteria2 /usr/local/nginx/wordpress_tmp/wp-content/uploads/v2ray/base64/date "+%Y%m%d"`_hysteria2
+
+
+            
