@@ -14,20 +14,20 @@ jobs:
         with:
           ref: dev
       
-      # - name: Setup PHP
-      #   uses: shivammathur/setup-php@v2
-      #   with:
-      #     php-version: '7.4'
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '7.4'
           
-      # - name: Execute PHP script
-      #   run: |
-      #     php collect.php
-      #     git config --global user.email "yangleduo@gmail.com"
-      #     git config --global user.name "yangleduo"
-      #     git config credential.helper store
-      #     git add -A
-      #     git commit -m "yangleduo Regularly updated - $(TZ='Asia/Tehran' date '+%Y-%m-%d %H:%M:%S')"
-      #     git push
+      - name: Execute PHP script
+        run: |
+          php collect.php
+          git config --global user.email "yangleduo@gmail.com"
+          git config --global user.name "yangleduo"
+          git config credential.helper store
+          git add -A
+          git commit -m "yangleduo Regularly updated - $(TZ='Asia/Tehran' date '+%Y-%m-%d %H:%M:%S')"
+          git push
           
       - name: Transfer File
         uses: easingthemes/ssh-deploy@main
@@ -43,12 +43,12 @@ jobs:
             rm -rf normal/ base64/
           SCRIPT_AFTER: |
             cd /home/github/normal
-            mv vemss /usr/local/nginx/wordpress_tmp/wp-content/uploads/v2ray/normal/`date "+%Y%m%d"`_vemss
+            mv vmess /usr/local/nginx/wordpress_tmp/wp-content/uploads/v2ray/normal/`date "+%Y%m%d"`_vmess
             mv vless /usr/local/nginx/wordpress_tmp/wp-content/uploads/v2ray/normal/`date "+%Y%m%d"`_vless
             mv shadowsocks /usr/local/nginx/wordpress_tmp/wp-content/uploads/v2ray/normal/`date "+%Y%m%d"`_shadowsocks
             mv trojan /usr/local/nginx/wordpress_tmp/wp-content/uploads/v2ray/normal/`date "+%Y%m%d"`_trojan
             cd /home/github/base64
-            mv vemss /usr/local/nginx/wordpress_tmp/wp-content/uploads/v2ray/base64/`date "+%Y%m%d"`_vemss
+            mv vmess /usr/local/nginx/wordpress_tmp/wp-content/uploads/v2ray/base64/`date "+%Y%m%d"`_vmess
             mv vless /usr/local/nginx/wordpress_tmp/wp-content/uploads/v2ray/base64/`date "+%Y%m%d"`_vless
             mv shadowsocks /usr/local/nginx/wordpress_tmp/wp-content/uploads/v2ray/base64/`date "+%Y%m%d"`_shadowsocks
             mv trojan /usr/local/nginx/wordpress_tmp/wp-content/uploads/v2ray/base64/`date "+%Y%m%d"`_trojan
