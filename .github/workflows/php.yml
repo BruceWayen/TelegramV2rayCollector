@@ -1,4 +1,4 @@
-name: "CONFIG COLLECTOR"
+name: "crazygeeky.com"
 
 on:
   workflow_dispatch:
@@ -20,9 +20,9 @@ jobs:
       - name: Execute PHP script
         run: |
           php collect.php
-          git config --global user.email "yebekhe@gmail.com"
-          git config --global user.name "yebekhe"
+          git config --global user.email "yangleduo@gmail.com"
+          git config --global user.name "yangleduo"
           git config credential.helper store
           git add -A
-          git commit -m "🚀 Servers Updated - $(TZ='Asia/Tehran' date '+%Y-%m-%d %H:%M:%S')"
+          git commit -m "yangleduo Regularly updated - $(TZ='Asia/Tehran' date '+%Y-%m-%d %H:%M:%S')"
           git push
