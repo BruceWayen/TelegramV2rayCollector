@@ -28,3 +28,20 @@ jobs:
           git add -A
           git commit -m "yangleduo Regularly updated - $(TZ='Asia/Tehran' date '+%Y-%m-%d %H:%M:%S')"
           git push
+          
+      - name: Transfer File
+        uses: easingthemes/ssh-deploy@main
+        with:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          ARGS: "-rlgoDzvc -i"
+          SOURCE: "sub/"
+          REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
+          REMOTE_USER: ${{ secrets.REMOTE_USER }}
+          TARGET: ${{ secrets.REMOTE_TARGET }}
+          SCRIPT_BEFORE: |
+            whoami
+            ls -al
+          SCRIPT_AFTER: |
+            cd /home/github
+            ls -al
+            echo $RSYNC_STDOUT
