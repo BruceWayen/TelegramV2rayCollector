@@ -118,9 +118,9 @@
                 "رایگان | SS | @OutlineVpnOfficial | IN🇮🇳 | 0️⃣1️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | AL🇦🇱 | 0️⃣2️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | US🇺🇸 | 0️⃣3️⃣",
+                "رایگان | SS | @forwardv2ray | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | SS | @FAKEOFTVC | GB🇬🇧 | 0️⃣1️⃣",
-                "رایگان | SS | @FAKEOFTVC | AL🇦🇱 | 0️⃣2️⃣",
-                "رایگان | SS | @FAKEOFTVC | IM🇮🇲 | 0️⃣3️⃣",
+                "رایگان | SS | @FAKEOFTVC | IM🇮🇲 | 0️⃣2️⃣",
                 "رایگان | SS | @proxy_mtm | GB🇬🇧 | 0️⃣1️⃣",
                 "رایگان | SS | @proxy_mtm | GB🇬🇧 | 0️⃣2️⃣",
                 "رایگان | SS | @proxy_mtm | RU🇷🇺 | 0️⃣3️⃣"
@@ -138,9 +138,9 @@
                 "رایگان | SS | @OutlineVpnOfficial | IN🇮🇳 | 0️⃣1️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | AL🇦🇱 | 0️⃣2️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | US🇺🇸 | 0️⃣3️⃣",
+                "رایگان | SS | @forwardv2ray | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | SS | @FAKEOFTVC | GB🇬🇧 | 0️⃣1️⃣",
-                "رایگان | SS | @FAKEOFTVC | AL🇦🇱 | 0️⃣2️⃣",
-                "رایگان | SS | @FAKEOFTVC | IM🇮🇲 | 0️⃣3️⃣",
+                "رایگان | SS | @FAKEOFTVC | IM🇮🇲 | 0️⃣2️⃣",
                 "رایگان | SS | @proxy_mtm | GB🇬🇧 | 0️⃣1️⃣",
                 "رایگان | SS | @proxy_mtm | GB🇬🇧 | 0️⃣2️⃣",
                 "رایگان | SS | @proxy_mtm | RU🇷🇺 | 0️⃣3️⃣"
@@ -230,6 +230,16 @@
             "plugin_opts": ""
         },
         {
+            "tag": "رایگان | SS | @forwardv2ray | US🇺🇸 | 0️⃣1️⃣",
+            "type": "shadowsocks",
+            "server": "la.telegavpn.org",
+            "server_port": 33966,
+            "method": "chacha20-ietf-poly1305",
+            "password": "MUEMSFVAWyKS6SIu0OINiz",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
             "tag": "رایگان | SS | @FAKEOFTVC | GB🇬🇧 | 0️⃣1️⃣",
             "type": "shadowsocks",
             "server": "51.89.8.47",
@@ -240,17 +250,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "رایگان | SS | @FAKEOFTVC | AL🇦🇱 | 0️⃣2️⃣",
-            "type": "shadowsocks",
-            "server": "31.171.153.181",
-            "server_port": 989,
-            "method": "aes-256-cfb",
-            "password": "f8f7aCzcPKbsF8p3",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "رایگان | SS | @FAKEOFTVC | IM🇮🇲 | 0️⃣3️⃣",
+            "tag": "رایگان | SS | @FAKEOFTVC | IM🇮🇲 | 0️⃣2️⃣",
             "type": "shadowsocks",
             "server": "192.71.211.161",
             "server_port": 989,
