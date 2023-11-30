@@ -116,7 +116,6 @@
                 "ES🇪🇸",
                 "RU🇷🇺",
                 "RELAY🚩",
-                "HK🇭🇰",
                 "US🇺🇸",
                 "AE🇦🇪"
             ]
@@ -134,10 +133,8 @@
                 "رایگان | TROJAN | @oneclickvpnkeys | ES🇪🇸 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @oneclickvpnkeys | RU🇷🇺 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @proxystore11 | RELAY🚩 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @kingofilter | RELAY🚩 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @yaney_01 | HK🇭🇰 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @yaney_01 | US🇺🇸 | 0️⃣2️⃣",
-                "رایگان | TROJAN | @kingofilter | AE🇦🇪 | 0️⃣2️⃣"
+                "رایگان | TROJAN | @yaney_01 | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @kingofilter | AE🇦🇪 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -200,18 +197,7 @@
             "tag": "RELAY🚩",
             "type": "urltest",
             "outbounds": [
-                "رایگان | TROJAN | @proxystore11 | RELAY🚩 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @kingofilter | RELAY🚩 | 0️⃣1️⃣"
-            ],
-            "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
-            "tolerance": 50
-        },
-        {
-            "tag": "HK🇭🇰",
-            "type": "urltest",
-            "outbounds": [
-                "رایگان | TROJAN | @yaney_01 | HK🇭🇰 | 0️⃣1️⃣"
+                "رایگان | TROJAN | @proxystore11 | RELAY🚩 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -221,7 +207,7 @@
             "tag": "US🇺🇸",
             "type": "urltest",
             "outbounds": [
-                "رایگان | TROJAN | @yaney_01 | US🇺🇸 | 0️⃣2️⃣"
+                "رایگان | TROJAN | @yaney_01 | US🇺🇸 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -231,7 +217,7 @@
             "tag": "AE🇦🇪",
             "type": "urltest",
             "outbounds": [
-                "رایگان | TROJAN | @kingofilter | AE🇦🇪 | 0️⃣2️⃣"
+                "رایگان | TROJAN | @kingofilter | AE🇦🇪 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -441,47 +427,7 @@
             }
         },
         {
-            "tag": "رایگان | TROJAN | @kingofilter | RELAY🚩 | 0️⃣1️⃣",
-            "type": "trojan",
-            "server": "de.melobigg.site",
-            "server_port": 443,
-            "password": "lgdOMYUTaj",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "de.melobigg.site",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Outline_vpn",
-                "headers": {
-                    "Host": null
-                }
-            }
-        },
-        {
-            "tag": "رایگان | TROJAN | @yaney_01 | HK🇭🇰 | 0️⃣1️⃣",
-            "type": "trojan",
-            "server": "usa.liangyuandiancloud.com",
-            "server_port": 443,
-            "password": "45a99be4-8cb4-4df2-b7a4-42f1a8dea5c1",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "رایگان | TROJAN | @yaney_01 | US🇺🇸 | 0️⃣2️⃣",
+            "tag": "رایگان | TROJAN | @yaney_01 | US🇺🇸 | 0️⃣1️⃣",
             "type": "trojan",
             "server": "ssrsub.t18.trojan.tel",
             "server_port": 80,
@@ -493,11 +439,11 @@
             }
         },
         {
-            "tag": "رایگان | TROJAN | @kingofilter | AE🇦🇪 | 0️⃣2️⃣",
+            "tag": "رایگان | TROJAN | @kingofilter | AE🇦🇪 | 0️⃣1️⃣",
             "type": "trojan",
-            "server": "193.123.82.85",
-            "server_port": 13596,
-            "password": "56075693-634d-322b-bea7-fb4c038c33cf",
+            "server": "193.123.87.138",
+            "server_port": 15377,
+            "password": "b083c1d0-dfc9-3dae-949d-b8091f67f711",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -505,7 +451,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "freedb02.jd0001.top",
+                "server_name": "freedb01.jd0001.top",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -514,7 +460,7 @@
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "freedb02",
+                "service_name": "freedb01",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
