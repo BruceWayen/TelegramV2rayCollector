@@ -112,7 +112,9 @@
                 "GB🇬🇧",
                 "US🇺🇸",
                 "AL🇦🇱",
-                "IM🇮🇲"
+                "TR🇹🇷",
+                "IM🇮🇲",
+                "RU🇷🇺"
             ]
         },
         {
@@ -128,10 +130,11 @@
                 "رایگان | SS | @proxy_mtm | GB🇬🇧 | 0️⃣2️⃣",
                 "رایگان | SS | @VmessProtocol | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | US🇺🇸 | 0️⃣3️⃣",
-                "رایگان | SS | @forwardv2ray | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | AL🇦🇱 | 0️⃣2️⃣",
                 "رایگان | SS | @FAKEOFTVC | AL🇦🇱 | 0️⃣2️⃣",
-                "رایگان | SS | @FAKEOFTVC | IM🇮🇲 | 0️⃣3️⃣"
+                "رایگان | SS | @forwardv2ray | TR🇹🇷 | 0️⃣1️⃣",
+                "رایگان | SS | @FAKEOFTVC | IM🇮🇲 | 0️⃣3️⃣",
+                "رایگان | SS | @proxy_mtm | RU🇷🇺 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -167,8 +170,7 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | SS | @VmessProtocol | US🇺🇸 | 0️⃣2️⃣",
-                "رایگان | SS | @OutlineVpnOfficial | US🇺🇸 | 0️⃣3️⃣",
-                "رایگان | SS | @forwardv2ray | US🇺🇸 | 0️⃣1️⃣"
+                "رایگان | SS | @OutlineVpnOfficial | US🇺🇸 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -186,10 +188,30 @@
             "tolerance": 50
         },
         {
+            "tag": "TR🇹🇷",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | SS | @forwardv2ray | TR🇹🇷 | 0️⃣1️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
             "tag": "IM🇮🇲",
             "type": "urltest",
             "outbounds": [
                 "رایگان | SS | @FAKEOFTVC | IM🇮🇲 | 0️⃣3️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
+            "tag": "RU🇷🇺",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | SS | @proxy_mtm | RU🇷🇺 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -286,16 +308,6 @@
             "plugin_opts": ""
         },
         {
-            "tag": "رایگان | SS | @forwardv2ray | US🇺🇸 | 0️⃣1️⃣",
-            "type": "shadowsocks",
-            "server": "la.telegavpn.org",
-            "server_port": 33966,
-            "method": "chacha20-ietf-poly1305",
-            "password": "Y003vmznzYCkQodfAP1A4Q",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
             "tag": "رایگان | SS | @OutlineVpnOfficial | AL🇦🇱 | 0️⃣2️⃣",
             "type": "shadowsocks",
             "server": "www.outline.network.ak1986.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
@@ -316,12 +328,32 @@
             "plugin_opts": ""
         },
         {
+            "tag": "رایگان | SS | @forwardv2ray | TR🇹🇷 | 0️⃣1️⃣",
+            "type": "shadowsocks",
+            "server": "185.123.101.241",
+            "server_port": 989,
+            "method": "aes-256-cfb",
+            "password": "f8f7aCzcPKbsF8p3",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
             "tag": "رایگان | SS | @FAKEOFTVC | IM🇮🇲 | 0️⃣3️⃣",
             "type": "shadowsocks",
             "server": "192.71.211.161",
             "server_port": 989,
             "method": "aes-256-cfb",
             "password": "f8f7aCzcPKbsF8p3",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "رایگان | SS | @proxy_mtm | RU🇷🇺 | 0️⃣3️⃣",
+            "type": "shadowsocks",
+            "server": "89.19.216.18",
+            "server_port": 8388,
+            "method": "chacha20-ietf-poly1305",
+            "password": "NC7jORVNrruV\/+3+PwOJrnnOeG7n75X1",
             "plugin": "",
             "plugin_opts": ""
         },
