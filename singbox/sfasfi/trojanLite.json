@@ -112,11 +112,12 @@
                 "رایگان | TROJAN | @oneclickvpnkeys | JP🇯🇵 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @oneclickvpnkeys | JP🇯🇵 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @oneclickvpnkeys | DE🇩🇪 | 0️⃣3️⃣",
-                "رایگان | TROJAN | @ConfigsHUB | IE🇮🇪 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @proxystore11 | MT🇲🇹 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @proxystore11 | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @yaney_01 | HK🇭🇰 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @yaney_01 | US🇺🇸 | 0️⃣2️⃣"
+                "رایگان | TROJAN | @yaney_01 | US🇺🇸 | 0️⃣2️⃣",
+                "رایگان | TROJAN | @forwardv2ray | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @forwardv2ray | RELAY🚩 | 0️⃣2️⃣"
             ]
         },
         {
@@ -127,11 +128,12 @@
                 "رایگان | TROJAN | @oneclickvpnkeys | JP🇯🇵 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @oneclickvpnkeys | JP🇯🇵 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @oneclickvpnkeys | DE🇩🇪 | 0️⃣3️⃣",
-                "رایگان | TROJAN | @ConfigsHUB | IE🇮🇪 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @proxystore11 | MT🇲🇹 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @proxystore11 | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @yaney_01 | HK🇭🇰 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @yaney_01 | US🇺🇸 | 0️⃣2️⃣"
+                "رایگان | TROJAN | @yaney_01 | US🇺🇸 | 0️⃣2️⃣",
+                "رایگان | TROJAN | @forwardv2ray | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @forwardv2ray | RELAY🚩 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -222,27 +224,6 @@
             }
         },
         {
-            "tag": "رایگان | TROJAN | @ConfigsHUB | IE🇮🇪 | 0️⃣1️⃣",
-            "type": "trojan",
-            "server": "52.215.54.89",
-            "server_port": 22222,
-            "password": "telegram-id-directvpn",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "trj.rollingnext.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
             "tag": "رایگان | TROJAN | @proxystore11 | MT🇲🇹 | 0️⃣1️⃣",
             "type": "trojan",
             "server": "193.227.99.55",
@@ -320,6 +301,62 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "رایگان | TROJAN | @forwardv2ray | US🇺🇸 | 0️⃣1️⃣",
+            "type": "trojan",
+            "server": "amini3.ddns.net",
+            "server_port": 2096,
+            "password": "7CresiIrK7",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "doijgvoDD.MOoKoMeilz.homes",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/snanakkaalll",
+                "headers": {
+                    "Host": "paNel168.MOoKoMEiLz.homes"
+                }
+            }
+        },
+        {
+            "tag": "رایگان | TROJAN | @forwardv2ray | RELAY🚩 | 0️⃣2️⃣",
+            "type": "trojan",
+            "server": "amini2.ddns.net",
+            "server_port": 2096,
+            "password": "VVZUOjJmut",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "QolAA.mookomeilz.homes",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/kakw",
+                "headers": {
+                    "Host": "pANeL159.moOkoMEilz.homes"
+                }
             }
         },
         {
