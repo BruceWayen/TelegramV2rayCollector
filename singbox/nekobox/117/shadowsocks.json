@@ -124,7 +124,9 @@
                 "رایگان | SS | @vmess_vless_v2rayng | GB🇬🇧 | 0️⃣1️⃣",
                 "رایگان | SS | @FAKEOFTVC | GB🇬🇧 | 0️⃣3️⃣",
                 "رایگان | SS | @VmessProtocol | RU🇷🇺 | 0️⃣1️⃣",
-                "رایگان | SS | @VmessProtocol | PK🇵🇰 | 0️⃣2️⃣",
+                "رایگان | SS | @VmessProtocol | RU🇷🇺 | 0️⃣2️⃣",
+                "رایگان | SS | @forwardv2ray | RU🇷🇺 | 0️⃣1️⃣",
+                "رایگان | SS | @VmessProtocol | PK🇵🇰 | 0️⃣3️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | IN🇮🇳 | 0️⃣1️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | AL🇦🇱 | 0️⃣2️⃣",
                 "رایگان | SS | @FAKEOFTVC | SE🇸🇪 | 0️⃣1️⃣",
@@ -160,7 +162,9 @@
             "tag": "RU🇷🇺",
             "type": "urltest",
             "outbounds": [
-                "رایگان | SS | @VmessProtocol | RU🇷🇺 | 0️⃣1️⃣"
+                "رایگان | SS | @VmessProtocol | RU🇷🇺 | 0️⃣1️⃣",
+                "رایگان | SS | @VmessProtocol | RU🇷🇺 | 0️⃣2️⃣",
+                "رایگان | SS | @forwardv2ray | RU🇷🇺 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -170,7 +174,7 @@
             "tag": "PK🇵🇰",
             "type": "urltest",
             "outbounds": [
-                "رایگان | SS | @VmessProtocol | PK🇵🇰 | 0️⃣2️⃣"
+                "رایگان | SS | @VmessProtocol | PK🇵🇰 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -267,7 +271,27 @@
             "plugin_opts": ""
         },
         {
-            "tag": "رایگان | SS | @VmessProtocol | PK🇵🇰 | 0️⃣2️⃣",
+            "tag": "رایگان | SS | @VmessProtocol | RU🇷🇺 | 0️⃣2️⃣",
+            "type": "shadowsocks",
+            "server": "217.29.63.152",
+            "server_port": 51348,
+            "method": "chacha20-ietf-poly1305",
+            "password": "H9D7dwn88dVtsFV1ksduvRHfuNb1zueWwnNwa0pmyTNQjpGX",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "رایگان | SS | @forwardv2ray | RU🇷🇺 | 0️⃣1️⃣",
+            "type": "shadowsocks",
+            "server": "vpn-ru.wwp.im",
+            "server_port": 15174,
+            "method": "chacha20-ietf-poly1305",
+            "password": "m8Q5boVt0ZeMgZUWY4O3Rb",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "رایگان | SS | @VmessProtocol | PK🇵🇰 | 0️⃣3️⃣",
             "type": "shadowsocks",
             "server": "50.114.157.63",
             "server_port": 10020,
