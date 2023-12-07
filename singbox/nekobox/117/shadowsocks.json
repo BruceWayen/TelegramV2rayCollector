@@ -109,6 +109,8 @@
                 "GB🇬🇧",
                 "RU🇷🇺",
                 "IN🇮🇳",
+                "AL🇦🇱",
+                "SE🇸🇪",
                 "FR🇫🇷"
             ]
         },
@@ -117,14 +119,16 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | SS | @V2rayCollectorDonate | US🇺🇸 | 0️⃣1️⃣",
-                "رایگان | SS | @OutlineVpnOfficial | US🇺🇸 | 0️⃣2️⃣",
+                "رایگان | SS | @OutlineVpnOfficial | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | SS | @vmess_vless_v2rayng | GB🇬🇧 | 0️⃣1️⃣",
-                "رایگان | SS | @FAKEOFTVC | GB🇬🇧 | 0️⃣2️⃣",
+                "رایگان | SS | @FAKEOFTVC | GB🇬🇧 | 0️⃣3️⃣",
                 "رایگان | SS | @VmessProtocol | RU🇷🇺 | 0️⃣1️⃣",
                 "رایگان | SS | @VmessProtocol | RU🇷🇺 | 0️⃣2️⃣",
                 "رایگان | SS | @VmessProtocol | RU🇷🇺 | 0️⃣3️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | IN🇮🇳 | 0️⃣1️⃣",
-                "رایگان | SS | @FAKEOFTVC | FR🇫🇷 | 0️⃣1️⃣"
+                "رایگان | SS | @OutlineVpnOfficial | AL🇦🇱 | 0️⃣2️⃣",
+                "رایگان | SS | @FAKEOFTVC | SE🇸🇪 | 0️⃣1️⃣",
+                "رایگان | SS | @FAKEOFTVC | FR🇫🇷 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -135,7 +139,7 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | SS | @V2rayCollectorDonate | US🇺🇸 | 0️⃣1️⃣",
-                "رایگان | SS | @OutlineVpnOfficial | US🇺🇸 | 0️⃣2️⃣"
+                "رایگان | SS | @OutlineVpnOfficial | US🇺🇸 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -146,7 +150,7 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | SS | @vmess_vless_v2rayng | GB🇬🇧 | 0️⃣1️⃣",
-                "رایگان | SS | @FAKEOFTVC | GB🇬🇧 | 0️⃣2️⃣"
+                "رایگان | SS | @FAKEOFTVC | GB🇬🇧 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -175,10 +179,30 @@
             "tolerance": 50
         },
         {
+            "tag": "AL🇦🇱",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | SS | @OutlineVpnOfficial | AL🇦🇱 | 0️⃣2️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
+            "tag": "SE🇸🇪",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | SS | @FAKEOFTVC | SE🇸🇪 | 0️⃣1️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
             "tag": "FR🇫🇷",
             "type": "urltest",
             "outbounds": [
-                "رایگان | SS | @FAKEOFTVC | FR🇫🇷 | 0️⃣1️⃣"
+                "رایگان | SS | @FAKEOFTVC | FR🇫🇷 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -195,7 +219,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "رایگان | SS | @OutlineVpnOfficial | US🇺🇸 | 0️⃣2️⃣",
+            "tag": "رایگان | SS | @OutlineVpnOfficial | US🇺🇸 | 0️⃣3️⃣",
             "type": "shadowsocks",
             "server": "www.outline.network.ak1985.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
             "server_port": 2443,
@@ -215,7 +239,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "رایگان | SS | @FAKEOFTVC | GB🇬🇧 | 0️⃣2️⃣",
+            "tag": "رایگان | SS | @FAKEOFTVC | GB🇬🇧 | 0️⃣3️⃣",
             "type": "shadowsocks",
             "server": "195.181.165.151",
             "server_port": 443,
@@ -265,7 +289,27 @@
             "plugin_opts": ""
         },
         {
-            "tag": "رایگان | SS | @FAKEOFTVC | FR🇫🇷 | 0️⃣1️⃣",
+            "tag": "رایگان | SS | @OutlineVpnOfficial | AL🇦🇱 | 0️⃣2️⃣",
+            "type": "shadowsocks",
+            "server": "www.outline.network.ak1986.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
+            "server_port": 2443,
+            "method": "aes-256-gcm",
+            "password": "mVMNhvDFhFH56a2iFF4ZOPTvkSEPbFXoe3eQ205xHTU=",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "رایگان | SS | @FAKEOFTVC | SE🇸🇪 | 0️⃣1️⃣",
+            "type": "shadowsocks",
+            "server": "195.181.166.174",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "رایگان | SS | @FAKEOFTVC | FR🇫🇷 | 0️⃣2️⃣",
             "type": "shadowsocks",
             "server": "162.19.18.105",
             "server_port": 443,
