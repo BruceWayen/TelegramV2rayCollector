@@ -135,7 +135,6 @@
                 "رایگان | REALITY | @melov2ray | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @V2rayCollectorDonate | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @V2rayCollectorDonate | DE🇩🇪 | 0️⃣7️⃣",
-                "رایگان | REALITY | @ConfigsHUB | DE🇩🇪 | 0️⃣3️⃣",
                 "رایگان | REALITY | @fnet00 | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @fnet00 | DE🇩🇪 | 0️⃣3️⃣",
                 "رایگان | REALITY | @IBv2ray | DE🇩🇪 | 0️⃣1️⃣",
@@ -260,9 +259,8 @@
                 "رایگان | REALITY | @FoXrayIran | FR🇫🇷 | 0️⃣3️⃣",
                 "رایگان | REALITY | @V2Hub | Donated | FR🇫🇷 | 1️⃣9️⃣",
                 "رایگان | REALITY | @V2Hub | Donated | FR🇫🇷 | 2️⃣5️⃣",
+                "رایگان | REALITY | @ConfigsHUB | NL🇳🇱 | 0️⃣2️⃣",
                 "رایگان | REALITY | @VPNCLOP | NL🇳🇱 | 0️⃣2️⃣",
-                "رایگان | REALITY | @forwardv2ray | NL🇳🇱 | 0️⃣1️⃣",
-                "رایگان | REALITY | @forwardv2ray | NL🇳🇱 | 0️⃣3️⃣",
                 "رایگان | REALITY | @flyv2ray | IR🇮🇷 | 0️⃣2️⃣",
                 "رایگان | REALITY | @flyv2ray | IR🇮🇷 | 0️⃣3️⃣",
                 "رایگان | REALITY | @GozargahVPN | IR🇮🇷 | 0️⃣1️⃣",
@@ -310,7 +308,6 @@
                 "رایگان | REALITY | @melov2ray | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @V2rayCollectorDonate | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @V2rayCollectorDonate | DE🇩🇪 | 0️⃣7️⃣",
-                "رایگان | REALITY | @ConfigsHUB | DE🇩🇪 | 0️⃣3️⃣",
                 "رایگان | REALITY | @fnet00 | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @fnet00 | DE🇩🇪 | 0️⃣3️⃣",
                 "رایگان | REALITY | @IBv2ray | DE🇩🇪 | 0️⃣1️⃣",
@@ -498,9 +495,8 @@
             "tag": "NL🇳🇱",
             "type": "urltest",
             "outbounds": [
-                "رایگان | REALITY | @VPNCLOP | NL🇳🇱 | 0️⃣2️⃣",
-                "رایگان | REALITY | @forwardv2ray | NL🇳🇱 | 0️⃣1️⃣",
-                "رایگان | REALITY | @forwardv2ray | NL🇳🇱 | 0️⃣3️⃣"
+                "رایگان | REALITY | @ConfigsHUB | NL🇳🇱 | 0️⃣2️⃣",
+                "رایگان | REALITY | @VPNCLOP | NL🇳🇱 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -763,41 +759,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "رایگان | REALITY | @ConfigsHUB | DE🇩🇪 | 0️⃣3️⃣",
-            "type": "vless",
-            "server": "49.13.159.122",
-            "server_port": 27663,
-            "uuid": "1017ea75-e901-4964-b951-ccbf0f03046b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "univ-grenoble-alpes.fr",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "tTQp6Qpu7ay_wH3_196KWZxb2UcEaKlc7BaHsKc51R0",
-                    "short_id": "61247504"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "----------telegram:funza--------------------telegram:funza----------telegram:funza----------telegram:funza----------telegram:funza----------telegram:funza",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -4402,35 +4363,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @VPNCLOP | NL🇳🇱 | 0️⃣2️⃣",
-            "type": "vless",
-            "server": "213.170.133.64",
-            "server_port": 8443,
-            "uuid": "96f25872-91ba-4a9d-b7b8-d8c44a64625a",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ilovepdf.com",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "HYj9e1nKt19cNJIgmSE1ZVTI0wdvNjNiuys5z4DRvAM",
-                    "short_id": "8cd9814b02605691"
-                }
-            }
-        },
-        {
-            "tag": "رایگان | REALITY | @forwardv2ray | NL🇳🇱 | 0️⃣1️⃣",
+            "tag": "رایگان | REALITY | @ConfigsHUB | NL🇳🇱 | 0️⃣2️⃣",
             "type": "vless",
             "server": "filterchy.ddns.net",
             "server_port": 37864,
@@ -4465,12 +4398,12 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @forwardv2ray | NL🇳🇱 | 0️⃣3️⃣",
+            "tag": "رایگان | REALITY | @VPNCLOP | NL🇳🇱 | 0️⃣2️⃣",
             "type": "vless",
-            "server": "filterchy.ddns.net",
-            "server_port": 28136,
-            "uuid": "c99f5058-4b47-4ca8-a81b-bfcb8adafb39",
-            "flow": "",
+            "server": "213.170.133.64",
+            "server_port": 8443,
+            "uuid": "96f25872-91ba-4a9d-b7b8-d8c44a64625a",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -4479,24 +4412,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "yahoo.com",
+                "server_name": "ilovepdf.com",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "meWSHiio6tSutlWPAVz7O4czPl5dBmS3_7NyxTnySQE",
-                    "short_id": "569237b7"
+                    "public_key": "HYj9e1nKt19cNJIgmSE1ZVTI0wdvNjNiuys5z4DRvAM",
+                    "short_id": "8cd9814b02605691"
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
