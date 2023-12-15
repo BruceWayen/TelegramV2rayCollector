@@ -43,15 +43,15 @@ jobs:
             rm -rf normal/ base64/
           SCRIPT_AFTER: |
             cd /home/github/normal
-            mv vmess /usr/local/nginx/wordpress_tmp/wp-content/uploads/v2ray/normal/`date "+%Y%m%d"`_vmess
-            mv vless /usr/local/nginx/wordpress_tmp/wp-content/uploads/v2ray/normal/`date "+%Y%m%d"`_vless
-            mv shadowsocks /usr/local/nginx/wordpress_tmp/wp-content/uploads/v2ray/normal/`date "+%Y%m%d"`_shadowsocks
-            mv trojan /usr/local/nginx/wordpress_tmp/wp-content/uploads/v2ray/normal/`date "+%Y%m%d"`_trojan
+            mv vmess /usr/local/nginx/wordpress_tmp/wp-content/uploads/v2ray/normal/vmess
+            mv vless /usr/local/nginx/wordpress_tmp/wp-content/uploads/v2ray/normal/vless
+            mv shadowsocks /usr/local/nginx/wordpress_tmp/wp-content/uploads/v2ray/normal/shadowsocks
+            mv trojan /usr/local/nginx/wordpress_tmp/wp-content/uploads/v2ray/normal/trojan
             cd /home/github/base64
-            mv vmess /usr/local/nginx/wordpress_tmp/wp-content/uploads/v2ray/base64/`date "+%Y%m%d"`_vmess
-            mv vless /usr/local/nginx/wordpress_tmp/wp-content/uploads/v2ray/base64/`date "+%Y%m%d"`_vless
-            mv shadowsocks /usr/local/nginx/wordpress_tmp/wp-content/uploads/v2ray/base64/`date "+%Y%m%d"`_shadowsocks
-            mv trojan /usr/local/nginx/wordpress_tmp/wp-content/uploads/v2ray/base64/`date "+%Y%m%d"`_trojan
+            mv vmess /usr/local/nginx/wordpress_tmp/wp-content/uploads/v2ray/base64/vmess
+            mv vless /usr/local/nginx/wordpress_tmp/wp-content/uploads/v2ray/base64/vless
+            mv shadowsocks /usr/local/nginx/wordpress_tmp/wp-content/uploads/v2ray/base64/shadowsocks
+            mv trojan /usr/local/nginx/wordpress_tmp/wp-content/uploads/v2ray/base64/trojan
 
 
             
