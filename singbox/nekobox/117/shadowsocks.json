@@ -106,8 +106,6 @@
             "outbounds": [
                 "URL-TEST | رایگان",
                 "GB🇬🇧",
-                "SG🇸🇬",
-                "JP🇯🇵",
                 "US🇺🇸",
                 "CN🇨🇳"
             ]
@@ -118,9 +116,6 @@
             "outbounds": [
                 "رایگان | SS | @VmessProtocol | GB🇬🇧 | 0️⃣1️⃣",
                 "رایگان | SS | @VmessProtocol | GB🇬🇧 | 0️⃣2️⃣",
-                "رایگان | SS | @forwardv2ray | SG🇸🇬 | 0️⃣1️⃣",
-                "رایگان | SS | @forwardv2ray | SG🇸🇬 | 0️⃣3️⃣",
-                "رایگان | SS | @forwardv2ray | JP🇯🇵 | 0️⃣2️⃣",
                 "رایگان | SS | @FAKEOFTVC | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | SS | @FAKEOFTVC | CN🇨🇳 | 0️⃣2️⃣"
             ],
@@ -134,27 +129,6 @@
             "outbounds": [
                 "رایگان | SS | @VmessProtocol | GB🇬🇧 | 0️⃣1️⃣",
                 "رایگان | SS | @VmessProtocol | GB🇬🇧 | 0️⃣2️⃣"
-            ],
-            "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
-            "tolerance": 50
-        },
-        {
-            "tag": "SG🇸🇬",
-            "type": "urltest",
-            "outbounds": [
-                "رایگان | SS | @forwardv2ray | SG🇸🇬 | 0️⃣1️⃣",
-                "رایگان | SS | @forwardv2ray | SG🇸🇬 | 0️⃣3️⃣"
-            ],
-            "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
-            "tolerance": 50
-        },
-        {
-            "tag": "JP🇯🇵",
-            "type": "urltest",
-            "outbounds": [
-                "رایگان | SS | @forwardv2ray | JP🇯🇵 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -197,36 +171,6 @@
             "server_port": 34424,
             "method": "chacha20-ietf-poly1305",
             "password": "64LbKHnB3IO759ueEnhgMG",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "رایگان | SS | @forwardv2ray | SG🇸🇬 | 0️⃣1️⃣",
-            "type": "shadowsocks",
-            "server": "13.212.204.117",
-            "server_port": 443,
-            "method": "aes-256-cfb",
-            "password": "amazonskr05",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "رایگان | SS | @forwardv2ray | SG🇸🇬 | 0️⃣3️⃣",
-            "type": "shadowsocks",
-            "server": "52.77.251.235",
-            "server_port": 443,
-            "method": "aes-256-cfb",
-            "password": "amazonskr05",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "رایگان | SS | @forwardv2ray | JP🇯🇵 | 0️⃣2️⃣",
-            "type": "shadowsocks",
-            "server": "13.230.132.209",
-            "server_port": 443,
-            "method": "aes-256-cfb",
-            "password": "amazonskr05",
             "plugin": "",
             "plugin_opts": ""
         },
