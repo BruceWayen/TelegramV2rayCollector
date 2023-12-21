@@ -114,7 +114,6 @@
                 "US🇺🇸",
                 "RELAY🚩",
                 "CA🇨🇦",
-                "SG🇸🇬",
                 "JP🇯🇵"
             ]
         },
@@ -128,13 +127,11 @@
                 "رایگان | TROJAN | @DirectVPN | GB🇬🇧 | 0️⃣3️⃣",
                 "رایگان | TROJAN | @PrivateVPNs | FR🇫🇷 | 0️⃣3️⃣",
                 "رایگان | TROJAN | @DirectVPN | IE🇮🇪 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @oneclickvpnkeys | IE🇮🇪 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @oneclickvpnkeys | US🇺🇸 | 0️⃣2️⃣",
+                "رایگان | TROJAN | @oneclickvpnkeys | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @yaney_01 | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @VmessProtocol | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @yaney_01 | CA🇨🇦 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @kingofilter | SG🇸🇬 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @kingofilter | JP🇯🇵 | 0️⃣2️⃣"
+                "رایگان | TROJAN | @kingofilter | JP🇯🇵 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -167,8 +164,7 @@
             "tag": "IE🇮🇪",
             "type": "urltest",
             "outbounds": [
-                "رایگان | TROJAN | @DirectVPN | IE🇮🇪 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @oneclickvpnkeys | IE🇮🇪 | 0️⃣1️⃣"
+                "رایگان | TROJAN | @DirectVPN | IE🇮🇪 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -178,7 +174,7 @@
             "tag": "US🇺🇸",
             "type": "urltest",
             "outbounds": [
-                "رایگان | TROJAN | @oneclickvpnkeys | US🇺🇸 | 0️⃣2️⃣",
+                "رایگان | TROJAN | @oneclickvpnkeys | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @yaney_01 | US🇺🇸 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -206,20 +202,10 @@
             "tolerance": 50
         },
         {
-            "tag": "SG🇸🇬",
-            "type": "urltest",
-            "outbounds": [
-                "رایگان | TROJAN | @kingofilter | SG🇸🇬 | 0️⃣1️⃣"
-            ],
-            "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
-            "tolerance": 50
-        },
-        {
             "tag": "JP🇯🇵",
             "type": "urltest",
             "outbounds": [
-                "رایگان | TROJAN | @kingofilter | JP🇯🇵 | 0️⃣2️⃣"
+                "رایگان | TROJAN | @kingofilter | JP🇯🇵 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -352,28 +338,7 @@
             }
         },
         {
-            "tag": "رایگان | TROJAN | @oneclickvpnkeys | IE🇮🇪 | 0️⃣1️⃣",
-            "type": "trojan",
-            "server": "54.216.77.237",
-            "server_port": 22222,
-            "password": "telegram-id-directvpn",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "trj.rollingnext.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "رایگان | TROJAN | @oneclickvpnkeys | US🇺🇸 | 0️⃣2️⃣",
+            "tag": "رایگان | TROJAN | @oneclickvpnkeys | US🇺🇸 | 0️⃣1️⃣",
             "type": "trojan",
             "server": "jp2.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen",
             "server_port": 443,
@@ -446,35 +411,7 @@
             }
         },
         {
-            "tag": "رایگان | TROJAN | @kingofilter | SG🇸🇬 | 0️⃣1️⃣",
-            "type": "trojan",
-            "server": "185.230.245.213",
-            "server_port": 3306,
-            "password": "d07a02a06191c99f",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "n2.gladns.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/gateway\/connect",
-                "headers": {
-                    "Host": null
-                }
-            }
-        },
-        {
-            "tag": "رایگان | TROJAN | @kingofilter | JP🇯🇵 | 0️⃣2️⃣",
+            "tag": "رایگان | TROJAN | @kingofilter | JP🇯🇵 | 0️⃣1️⃣",
             "type": "trojan",
             "server": "54.168.244.142",
             "server_port": 3306,
