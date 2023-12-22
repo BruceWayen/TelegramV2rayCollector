@@ -108,7 +108,8 @@
                 "GB🇬🇧",
                 "US🇺🇸",
                 "RU🇷🇺",
-                "NL🇳🇱"
+                "NL🇳🇱",
+                "PL🇵🇱"
             ]
         },
         {
@@ -116,11 +117,14 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | SS | @V2rayCollectorDonate | GB🇬🇧 | 0️⃣1️⃣",
-                "رایگان | SS | @V2rayCollectorDonate | GB🇬🇧 | 0️⃣2️⃣",
+                "رایگان | SS | @V2rayCollectorDonate | GB🇬🇧 | 0️⃣3️⃣",
                 "رایگان | SS | @proxyymeliii | GB🇬🇧 | 0️⃣1️⃣",
-                "رایگان | SS | @V2rayCollectorDonate | US🇺🇸 | 0️⃣3️⃣",
+                "رایگان | SS | @V2rayCollectorDonate | US🇺🇸 | 0️⃣4️⃣",
                 "رایگان | SS | @VmessProtocol | RU🇷🇺 | 0️⃣1️⃣",
-                "رایگان | SS | @VmessProtocol | NL🇳🇱 | 0️⃣2️⃣"
+                "رایگان | SS | @VmessProtocol | NL🇳🇱 | 0️⃣2️⃣",
+                "رایگان | SS | @forwardv2ray | PL🇵🇱 | 0️⃣1️⃣",
+                "رایگان | SS | @forwardv2ray | PL🇵🇱 | 0️⃣2️⃣",
+                "رایگان | SS | @forwardv2ray | PL🇵🇱 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -131,7 +135,7 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | SS | @V2rayCollectorDonate | GB🇬🇧 | 0️⃣1️⃣",
-                "رایگان | SS | @V2rayCollectorDonate | GB🇬🇧 | 0️⃣2️⃣",
+                "رایگان | SS | @V2rayCollectorDonate | GB🇬🇧 | 0️⃣3️⃣",
                 "رایگان | SS | @proxyymeliii | GB🇬🇧 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -142,7 +146,7 @@
             "tag": "US🇺🇸",
             "type": "urltest",
             "outbounds": [
-                "رایگان | SS | @V2rayCollectorDonate | US🇺🇸 | 0️⃣3️⃣"
+                "رایگان | SS | @V2rayCollectorDonate | US🇺🇸 | 0️⃣4️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -169,6 +173,18 @@
             "tolerance": 50
         },
         {
+            "tag": "PL🇵🇱",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | SS | @forwardv2ray | PL🇵🇱 | 0️⃣1️⃣",
+                "رایگان | SS | @forwardv2ray | PL🇵🇱 | 0️⃣2️⃣",
+                "رایگان | SS | @forwardv2ray | PL🇵🇱 | 0️⃣3️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
             "tag": "رایگان | SS | @V2rayCollectorDonate | GB🇬🇧 | 0️⃣1️⃣",
             "type": "shadowsocks",
             "server": "it.fanqiecloud.top",
@@ -179,7 +195,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "رایگان | SS | @V2rayCollectorDonate | GB🇬🇧 | 0️⃣2️⃣",
+            "tag": "رایگان | SS | @V2rayCollectorDonate | GB🇬🇧 | 0️⃣3️⃣",
             "type": "shadowsocks",
             "server": "uk.fanqiecloud.top",
             "server_port": 24504,
@@ -199,7 +215,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "رایگان | SS | @V2rayCollectorDonate | US🇺🇸 | 0️⃣3️⃣",
+            "tag": "رایگان | SS | @V2rayCollectorDonate | US🇺🇸 | 0️⃣4️⃣",
             "type": "shadowsocks",
             "server": "beacomf.xyz",
             "server_port": 8080,
@@ -225,6 +241,36 @@
             "server_port": 1165,
             "method": "chacha20-ietf-poly1305",
             "password": "0cAOTNuOqZQuK1c9-mCXJQ",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "رایگان | SS | @forwardv2ray | PL🇵🇱 | 0️⃣1️⃣",
+            "type": "shadowsocks",
+            "server": "51.77.53.200",
+            "server_port": 8080,
+            "method": "aes-256-gcm",
+            "password": "KixLvKzwjekG00rm",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "رایگان | SS | @forwardv2ray | PL🇵🇱 | 0️⃣2️⃣",
+            "type": "shadowsocks",
+            "server": "51.77.53.200",
+            "server_port": 5601,
+            "method": "aes-256-gcm",
+            "password": "Y6R9pAtvxxzmGC",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "رایگان | SS | @forwardv2ray | PL🇵🇱 | 0️⃣3️⃣",
+            "type": "shadowsocks",
+            "server": "51.77.53.200",
+            "server_port": 8000,
+            "method": "aes-256-gcm",
+            "password": "KixLvKzwjekG00rm",
             "plugin": "",
             "plugin_opts": ""
         },
