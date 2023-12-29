@@ -106,6 +106,7 @@
             "outbounds": [
                 "URL-TEST | رایگان",
                 "رایگان | SS | @VmessProtocol | GB🇬🇧 | 0️⃣1️⃣",
+                "رایگان | SS | @VmessProtocol | GB🇬🇧 | 0️⃣2️⃣",
                 "رایگان | SS | @FAKEOFTVC | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | SS | @FAKEOFTVC | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | SS | @FAKEOFTVC | SE🇸🇪 | 0️⃣3️⃣"
@@ -116,6 +117,7 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | SS | @VmessProtocol | GB🇬🇧 | 0️⃣1️⃣",
+                "رایگان | SS | @VmessProtocol | GB🇬🇧 | 0️⃣2️⃣",
                 "رایگان | SS | @FAKEOFTVC | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | SS | @FAKEOFTVC | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | SS | @FAKEOFTVC | SE🇸🇪 | 0️⃣3️⃣"
@@ -126,6 +128,16 @@
         },
         {
             "tag": "رایگان | SS | @VmessProtocol | GB🇬🇧 | 0️⃣1️⃣",
+            "type": "shadowsocks",
+            "server": "51.141.100.112",
+            "server_port": 24007,
+            "method": "chacha20-ietf-poly1305",
+            "password": "kYlKGnPRNwVk4RQEi7oqQs",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "رایگان | SS | @VmessProtocol | GB🇬🇧 | 0️⃣2️⃣",
             "type": "shadowsocks",
             "server": "kr.colacloud.site",
             "server_port": 20352,
