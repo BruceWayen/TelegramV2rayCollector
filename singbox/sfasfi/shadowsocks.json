@@ -109,7 +109,7 @@
             "outbounds": [
                 "URL-TEST | رایگان",
                 "US🇺🇸",
-                "CA🇨🇦",
+                "RU🇷🇺",
                 "DE🇩🇪"
             ]
         },
@@ -119,7 +119,7 @@
             "outbounds": [
                 "رایگان | SS | @V2rayCollectorDonate | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | SS | @V2rayCollectorDonate | US🇺🇸 | 0️⃣4️⃣",
-                "رایگان | SS | @forwardv2ray | CA🇨🇦 | 0️⃣1️⃣",
+                "رایگان | SS | @proxy_mtm | RU🇷🇺 | 0️⃣1️⃣",
                 "رایگان | SS | @kingofilter | DE🇩🇪 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -138,10 +138,10 @@
             "tolerance": 50
         },
         {
-            "tag": "CA🇨🇦",
+            "tag": "RU🇷🇺",
             "type": "urltest",
             "outbounds": [
-                "رایگان | SS | @forwardv2ray | CA🇨🇦 | 0️⃣1️⃣"
+                "رایگان | SS | @proxy_mtm | RU🇷🇺 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -178,12 +178,12 @@
             "plugin_opts": ""
         },
         {
-            "tag": "رایگان | SS | @forwardv2ray | CA🇨🇦 | 0️⃣1️⃣",
+            "tag": "رایگان | SS | @proxy_mtm | RU🇷🇺 | 0️⃣1️⃣",
             "type": "shadowsocks",
-            "server": "toronto.telegavpn.org",
-            "server_port": 31024,
+            "server": "89.19.216.18",
+            "server_port": 8388,
             "method": "chacha20-ietf-poly1305",
-            "password": "DB6uEFiLhUb2mP2DbbbtQN",
+            "password": "NC7jORVNrruV\/+3+PwOJrnnOeG7n75X1",
             "plugin": "",
             "plugin_opts": ""
         },
