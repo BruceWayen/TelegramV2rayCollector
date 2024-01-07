@@ -107,8 +107,8 @@
                 "URL-TEST | رایگان",
                 "رایگان | REALITY | @V2rayCollectorDonate | DE🇩🇪 | 0️⃣5️⃣",
                 "رایگان | REALITY | @V2RayTz | DE🇩🇪 | 0️⃣1️⃣",
+                "رایگان | REALITY | @v2rayng_vpnrog | FR🇫🇷 | 0️⃣1️⃣",
                 "رایگان | REALITY | @Capoit | IR🇮🇷 | 0️⃣2️⃣",
-                "رایگان | REALITY | @mehrosaboran | IR🇮🇷 | 0️⃣3️⃣",
                 "رایگان | REALITY | @freeconfigv2 | FR🇫🇷 | 0️⃣1️⃣",
                 "رایگان | REALITY | @hadisnajafi | Donated | RU🇷🇺 | 0️⃣1️⃣",
                 "رایگان | REALITY | @hadisnajafi | Donated | RU🇷🇺 | 0️⃣2️⃣",
@@ -208,8 +208,8 @@
             "outbounds": [
                 "رایگان | REALITY | @V2rayCollectorDonate | DE🇩🇪 | 0️⃣5️⃣",
                 "رایگان | REALITY | @V2RayTz | DE🇩🇪 | 0️⃣1️⃣",
+                "رایگان | REALITY | @v2rayng_vpnrog | FR🇫🇷 | 0️⃣1️⃣",
                 "رایگان | REALITY | @Capoit | IR🇮🇷 | 0️⃣2️⃣",
-                "رایگان | REALITY | @mehrosaboran | IR🇮🇷 | 0️⃣3️⃣",
                 "رایگان | REALITY | @freeconfigv2 | FR🇫🇷 | 0️⃣1️⃣",
                 "رایگان | REALITY | @hadisnajafi | Donated | RU🇷🇺 | 0️⃣1️⃣",
                 "رایگان | REALITY | @hadisnajafi | Donated | RU🇷🇺 | 0️⃣2️⃣",
@@ -370,6 +370,41 @@
             }
         },
         {
+            "tag": "رایگان | REALITY | @v2rayng_vpnrog | FR🇫🇷 | 0️⃣1️⃣",
+            "type": "vless",
+            "server": "deragv2ray.net",
+            "server_port": 17693,
+            "uuid": "c15afa46-e441-4917-9eba-e0570bfe6f22",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mihanyas.ir",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "AKoaNVYZJyC4_pM320wz2IijClB0jlw8276E4n-YC1I",
+                    "short_id": "98cb4588"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@deragv2ray,@deragv2ray,@deragv2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "رایگان | REALITY | @Capoit | IR🇮🇷 | 0️⃣2️⃣",
             "type": "vless",
             "server": "37.27.4.17",
@@ -393,41 +428,6 @@
                 "reality": {
                     "enabled": true,
                     "public_key": "FCSi3ZigbnUJZn18TvvshvRfjjlcxpH1grw87kV6mTA",
-                    "short_id": "483211d3"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ipV2Ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "رایگان | REALITY | @mehrosaboran | IR🇮🇷 | 0️⃣3️⃣",
-            "type": "vless",
-            "server": "37.27.4.17",
-            "server_port": 443,
-            "uuid": "02aa594a-af2e-4b35-8a17-5986ce15c7b5",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.forcespeed.fun",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "k3pNS9C17Yo-kZo0QGHyavoLAEwq6cNgCnAO70khbmg",
                     "short_id": "483211d3"
                 }
             },
