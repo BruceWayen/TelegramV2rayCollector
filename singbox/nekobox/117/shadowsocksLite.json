@@ -112,9 +112,9 @@
                 "رایگان | SS | @VmessProtocol | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | SS | @VmessProtocol | RU🇷🇺 | 0️⃣2️⃣",
                 "رایگان | SS | @VmessProtocol | GB🇬🇧 | 0️⃣3️⃣",
+                "رایگان | SS | @forwardv2ray | GB🇬🇧 | 0️⃣2️⃣",
                 "رایگان | SS | @FAKEOFTVC | FR🇫🇷 | 0️⃣1️⃣",
                 "رایگان | SS | @FAKEOFTVC | HR🇭🇷 | 0️⃣2️⃣",
-                "رایگان | SS | @FAKEOFTVC | AM🇦🇲 | 0️⃣3️⃣",
                 "رایگان | SS | @proxy_mtm | GB🇬🇧 | 0️⃣3️⃣",
                 "رایگان | SS | @kingofilter | CN🇨🇳 | 0️⃣1️⃣",
                 "رایگان | SS | @kingofilter | US🇺🇸 | 0️⃣2️⃣"
@@ -131,9 +131,9 @@
                 "رایگان | SS | @VmessProtocol | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | SS | @VmessProtocol | RU🇷🇺 | 0️⃣2️⃣",
                 "رایگان | SS | @VmessProtocol | GB🇬🇧 | 0️⃣3️⃣",
+                "رایگان | SS | @forwardv2ray | GB🇬🇧 | 0️⃣2️⃣",
                 "رایگان | SS | @FAKEOFTVC | FR🇫🇷 | 0️⃣1️⃣",
                 "رایگان | SS | @FAKEOFTVC | HR🇭🇷 | 0️⃣2️⃣",
-                "رایگان | SS | @FAKEOFTVC | AM🇦🇲 | 0️⃣3️⃣",
                 "رایگان | SS | @proxy_mtm | GB🇬🇧 | 0️⃣3️⃣",
                 "رایگان | SS | @kingofilter | CN🇨🇳 | 0️⃣1️⃣",
                 "رایگان | SS | @kingofilter | US🇺🇸 | 0️⃣2️⃣"
@@ -213,6 +213,16 @@
             "plugin_opts": ""
         },
         {
+            "tag": "رایگان | SS | @forwardv2ray | GB🇬🇧 | 0️⃣2️⃣",
+            "type": "shadowsocks",
+            "server": "51.142.75.225",
+            "server_port": 47430,
+            "method": "chacha20-ietf-poly1305",
+            "password": "OEYhlVQmP1nedIIIlMgNm5",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
             "tag": "رایگان | SS | @FAKEOFTVC | FR🇫🇷 | 0️⃣1️⃣",
             "type": "shadowsocks",
             "server": "51.159.111.208",
@@ -226,16 +236,6 @@
             "tag": "رایگان | SS | @FAKEOFTVC | HR🇭🇷 | 0️⃣2️⃣",
             "type": "shadowsocks",
             "server": "46.183.184.60",
-            "server_port": 989,
-            "method": "aes-256-cfb",
-            "password": "f8f7aCzcPKbsF8p3",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "رایگان | SS | @FAKEOFTVC | AM🇦🇲 | 0️⃣3️⃣",
-            "type": "shadowsocks",
-            "server": "146.185.248.22",
             "server_port": 989,
             "method": "aes-256-cfb",
             "password": "f8f7aCzcPKbsF8p3",
