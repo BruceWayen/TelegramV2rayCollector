@@ -110,7 +110,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST | رایگان",
-                "رایگان | REALITY | @ConfigsHUB | FI🇫🇮 | 0️⃣2️⃣",
+                "رایگان | REALITY | @DailyV2RY | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | REALITY | @fnet00 | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @fnet00 | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | REALITY | @Capoit | DE🇩🇪 | 0️⃣2️⃣",
@@ -136,7 +136,6 @@
                 "رایگان | REALITY | @V2Hub | Donated | NO🇳🇴 | 1️⃣2️⃣",
                 "رایگان | REALITY | @V2Hub | Donated | LV🇱🇻 | 1️⃣3️⃣",
                 "رایگان | REALITY | @V2Hub | Donated | NO🇳🇴 | 1️⃣4️⃣",
-                "رایگان | REALITY | @neda_aghasoltan | Donated | RU🇷🇺 | 0️⃣1️⃣",
                 "رایگان | REALITY | @sepideh_qolian(nazri) | Donated | FR🇫🇷 | 0️⃣1️⃣",
                 "رایگان | REALITY | @mahsaamini | Donated | RU🇷🇺 | 0️⃣1️⃣",
                 "رایگان | REALITY | @mahsaamini | Donated | RU🇷🇺 | 0️⃣2️⃣",
@@ -208,7 +207,7 @@
             "tag": "URL-TEST | رایگان",
             "type": "urltest",
             "outbounds": [
-                "رایگان | REALITY | @ConfigsHUB | FI🇫🇮 | 0️⃣2️⃣",
+                "رایگان | REALITY | @DailyV2RY | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | REALITY | @fnet00 | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @fnet00 | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | REALITY | @Capoit | DE🇩🇪 | 0️⃣2️⃣",
@@ -234,7 +233,6 @@
                 "رایگان | REALITY | @V2Hub | Donated | NO🇳🇴 | 1️⃣2️⃣",
                 "رایگان | REALITY | @V2Hub | Donated | LV🇱🇻 | 1️⃣3️⃣",
                 "رایگان | REALITY | @V2Hub | Donated | NO🇳🇴 | 1️⃣4️⃣",
-                "رایگان | REALITY | @neda_aghasoltan | Donated | RU🇷🇺 | 0️⃣1️⃣",
                 "رایگان | REALITY | @sepideh_qolian(nazri) | Donated | FR🇫🇷 | 0️⃣1️⃣",
                 "رایگان | REALITY | @mahsaamini | Donated | RU🇷🇺 | 0️⃣1️⃣",
                 "رایگان | REALITY | @mahsaamini | Donated | RU🇷🇺 | 0️⃣2️⃣",
@@ -306,12 +304,12 @@
             "tolerance": 50
         },
         {
-            "tag": "رایگان | REALITY | @ConfigsHUB | FI🇫🇮 | 0️⃣2️⃣",
+            "tag": "رایگان | REALITY | @DailyV2RY | CA🇨🇦 | 0️⃣1️⃣",
             "type": "vless",
-            "server": "95.217.163.167",
-            "server_port": 45312,
-            "uuid": "32ba101a-1acb-4640-8206-309114e50de6",
-            "flow": "xtls-rprx-vision",
+            "server": "192.99.158.243",
+            "server_port": 80,
+            "uuid": "5117bbb2-1a96-4301-a77b-c199919c1fd1",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -320,17 +318,24 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "discord.com",
+                "server_name": "yWGyLlKr.web.site",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "edge"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "YhjMYGbGTHGzxdvju5AoM8HGrEVwkG6F5oE1Eq9XVyA",
-                    "short_id": "236cd291"
+                    "public_key": "r9xqYf3TXGXiuUiWewGsA2uMGgqC_WVZOn9WLojL10Q",
+                    "short_id": "9d307375"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "yWGyLlKr.web.site",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1107,34 +1112,6 @@
                     "enabled": true,
                     "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
                     "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "رایگان | REALITY | @neda_aghasoltan | Donated | RU🇷🇺 | 0️⃣1️⃣",
-            "type": "vless",
-            "server": "193.187.175.44",
-            "server_port": 22,
-            "uuid": "22e42556-9310-451d-9698-a233938f6799",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "discord.com",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "1r0ye4C64sAUdeW3zAfyQonIn_rErekQa0bQrnTqo2k",
-                    "short_id": "a3f8ca7ffc6ac9cc"
                 }
             }
         },
