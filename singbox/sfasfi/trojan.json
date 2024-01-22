@@ -108,43 +108,33 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST | رایگان",
-                "RELAY🚩",
                 "US🇺🇸",
+                "RELAY🚩",
+                "DE🇩🇪",
                 "SE🇸🇪",
-                "IE🇮🇪",
                 "GB🇬🇧",
                 "FR🇫🇷",
-                "DE🇩🇪",
-                "KR🇰🇷"
+                "SG🇸🇬",
+                "IE🇮🇪"
             ]
         },
         {
             "tag": "URL-TEST | رایگان",
             "type": "urltest",
             "outbounds": [
-                "رایگان | TROJAN | @V2rayCollectorDonate | RELAY🚩 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @V2rayCollectorDonate | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @V2rayCollectorDonate | RELAY🚩 | 0️⃣2️⃣",
+                "رایگان | TROJAN | @proxyymeliii | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @v2ray1_ng | RELAY🚩 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @V2rayCollectorDonate | US🇺🇸 | 0️⃣2️⃣",
-                "رایگان | TROJAN | @proxyymeliii | US🇺🇸 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @PrivateVPNs | SE🇸🇪 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @PrivateVPNs | SE🇸🇪 | 0️⃣2️⃣",
-                "رایگان | TROJAN | @PrivateVPNs | IE🇮🇪 | 0️⃣3️⃣",
-                "رایگان | TROJAN | @DirectVPN | GB🇬🇧 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @DirectVPN | FR🇫🇷 | 0️⃣2️⃣",
+                "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @DirectVPN | DE🇩🇪 | 0️⃣3️⃣",
                 "رایگان | TROJAN | @kingofilter | DE🇩🇪 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @yaney_01 | KR🇰🇷 | 0️⃣1️⃣"
-            ],
-            "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
-            "tolerance": 50
-        },
-        {
-            "tag": "RELAY🚩",
-            "type": "urltest",
-            "outbounds": [
-                "رایگان | TROJAN | @V2rayCollectorDonate | RELAY🚩 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @v2ray1_ng | RELAY🚩 | 0️⃣1️⃣"
+                "رایگان | TROJAN | @PrivateVPNs | SE🇸🇪 | 0️⃣3️⃣",
+                "رایگان | TROJAN | @DirectVPN | GB🇬🇧 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @DirectVPN | FR🇫🇷 | 0️⃣2️⃣",
+                "رایگان | TROJAN | @oneclickvpnkeys | SG🇸🇬 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @forwardv2ray | IE🇮🇪 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -154,8 +144,32 @@
             "tag": "US🇺🇸",
             "type": "urltest",
             "outbounds": [
-                "رایگان | TROJAN | @V2rayCollectorDonate | US🇺🇸 | 0️⃣2️⃣",
-                "رایگان | TROJAN | @proxyymeliii | US🇺🇸 | 0️⃣1️⃣"
+                "رایگان | TROJAN | @V2rayCollectorDonate | US🇺🇸 | 0️⃣1️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
+            "tag": "RELAY🚩",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | TROJAN | @V2rayCollectorDonate | RELAY🚩 | 0️⃣2️⃣",
+                "رایگان | TROJAN | @proxyymeliii | RELAY🚩 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @v2ray1_ng | RELAY🚩 | 0️⃣1️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
+            "tag": "DE🇩🇪",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣2️⃣",
+                "رایگان | TROJAN | @DirectVPN | DE🇩🇪 | 0️⃣3️⃣",
+                "رایگان | TROJAN | @kingofilter | DE🇩🇪 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -165,18 +179,7 @@
             "tag": "SE🇸🇪",
             "type": "urltest",
             "outbounds": [
-                "رایگان | TROJAN | @PrivateVPNs | SE🇸🇪 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @PrivateVPNs | SE🇸🇪 | 0️⃣2️⃣"
-            ],
-            "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
-            "tolerance": 50
-        },
-        {
-            "tag": "IE🇮🇪",
-            "type": "urltest",
-            "outbounds": [
-                "رایگان | TROJAN | @PrivateVPNs | IE🇮🇪 | 0️⃣3️⃣"
+                "رایگان | TROJAN | @PrivateVPNs | SE🇸🇪 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -203,28 +206,27 @@
             "tolerance": 50
         },
         {
-            "tag": "DE🇩🇪",
+            "tag": "SG🇸🇬",
             "type": "urltest",
             "outbounds": [
-                "رایگان | TROJAN | @DirectVPN | DE🇩🇪 | 0️⃣3️⃣",
-                "رایگان | TROJAN | @kingofilter | DE🇩🇪 | 0️⃣1️⃣"
+                "رایگان | TROJAN | @oneclickvpnkeys | SG🇸🇬 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
             "tolerance": 50
         },
         {
-            "tag": "KR🇰🇷",
+            "tag": "IE🇮🇪",
             "type": "urltest",
             "outbounds": [
-                "رایگان | TROJAN | @yaney_01 | KR🇰🇷 | 0️⃣1️⃣"
+                "رایگان | TROJAN | @forwardv2ray | IE🇮🇪 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
             "tolerance": 50
         },
         {
-            "tag": "رایگان | TROJAN | @V2rayCollectorDonate | RELAY🚩 | 0️⃣1️⃣",
+            "tag": "رایگان | TROJAN | @V2rayCollectorDonate | US🇺🇸 | 0️⃣1️⃣",
             "type": "trojan",
             "server": "cf.xyzquant.cloud",
             "server_port": 443,
@@ -248,6 +250,62 @@
                 "path": "\/UIKk38G1Cb4ORi4fyf8bW",
                 "headers": {
                     "Host": "srv10.xyzquant.cloud"
+                }
+            }
+        },
+        {
+            "tag": "رایگان | TROJAN | @V2rayCollectorDonate | RELAY🚩 | 0️⃣2️⃣",
+            "type": "trojan",
+            "server": "ironone.libertasiran.cloud",
+            "server_port": 443,
+            "password": "LibertasOne*FfNb",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ironone.libertasiran.cloud",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/n890",
+                "headers": {
+                    "Host": null
+                }
+            }
+        },
+        {
+            "tag": "رایگان | TROJAN | @proxyymeliii | RELAY🚩 | 0️⃣1️⃣",
+            "type": "trojan",
+            "server": "gr.tucn-serves.info",
+            "server_port": 8443,
+            "password": "vBjaQYDraP",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "gr.tucn-serves.info",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": null
                 }
             }
         },
@@ -280,11 +338,74 @@
             }
         },
         {
-            "tag": "رایگان | TROJAN | @V2rayCollectorDonate | US🇺🇸 | 0️⃣2️⃣",
+            "tag": "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣1️⃣",
             "type": "trojan",
-            "server": "ironone.libertasiran.cloud",
+            "server": "18.192.7.181",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.miwan.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣2️⃣",
+            "type": "trojan",
+            "server": "3.127.154.239",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.miwan.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "رایگان | TROJAN | @DirectVPN | DE🇩🇪 | 0️⃣3️⃣",
+            "type": "trojan",
+            "server": "18.196.211.152",
+            "server_port": 22222,
+            "password": "telegram-id-directvpn",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "trj.rollingnext.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "رایگان | TROJAN | @kingofilter | DE🇩🇪 | 0️⃣1️⃣",
+            "type": "trojan",
+            "server": "172.67.204.84",
             "server_port": 443,
-            "password": "LibertasOne*FfNb",
+            "password": "efdf7370-b84b-11ee-9e41-1239d0255272",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -292,7 +413,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "ironone.libertasiran.cloud",
+                "server_name": "de2.test3.net",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -301,86 +422,16 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/n890",
+                "path": "\/howdy",
                 "headers": {
-                    "Host": null
+                    "Host": "de2.test3.net"
                 }
             }
         },
         {
-            "tag": "رایگان | TROJAN | @proxyymeliii | US🇺🇸 | 0️⃣1️⃣",
-            "type": "trojan",
-            "server": "gr.tucn-serves.info",
-            "server_port": 8443,
-            "password": "vBjaQYDraP",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "gr.tucn-serves.info",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": null
-                }
-            }
-        },
-        {
-            "tag": "رایگان | TROJAN | @PrivateVPNs | SE🇸🇪 | 0️⃣1️⃣",
+            "tag": "رایگان | TROJAN | @PrivateVPNs | SE🇸🇪 | 0️⃣3️⃣",
             "type": "trojan",
             "server": "13.49.59.43",
-            "server_port": 22222,
-            "password": "telegram-id-privatevpns",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.miwan.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "رایگان | TROJAN | @PrivateVPNs | SE🇸🇪 | 0️⃣2️⃣",
-            "type": "trojan",
-            "server": "13.48.227.187",
-            "server_port": 22222,
-            "password": "telegram-id-privatevpns",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.miwan.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "رایگان | TROJAN | @PrivateVPNs | IE🇮🇪 | 0️⃣3️⃣",
-            "type": "trojan",
-            "server": "52.208.253.114",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -441,32 +492,11 @@
             }
         },
         {
-            "tag": "رایگان | TROJAN | @DirectVPN | DE🇩🇪 | 0️⃣3️⃣",
+            "tag": "رایگان | TROJAN | @oneclickvpnkeys | SG🇸🇬 | 0️⃣1️⃣",
             "type": "trojan",
-            "server": "18.196.211.152",
-            "server_port": 22222,
-            "password": "telegram-id-directvpn",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "trj.rollingnext.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "رایگان | TROJAN | @kingofilter | DE🇩🇪 | 0️⃣1️⃣",
-            "type": "trojan",
-            "server": "172.67.204.84",
+            "server": "149.28.151.140",
             "server_port": 443,
-            "password": "efdf7370-b84b-11ee-9e41-1239d0255272",
+            "password": "842b5f9dd11e458d8613c907c4cc5723",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -474,31 +504,33 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "de2.test3.net",
+                "server_name": "www.gpt123.one",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/howdy",
-                "headers": {
-                    "Host": "de2.test3.net"
-                }
             }
         },
         {
-            "tag": "رایگان | TROJAN | @yaney_01 | KR🇰🇷 | 0️⃣1️⃣",
+            "tag": "رایگان | TROJAN | @forwardv2ray | IE🇮🇪 | 0️⃣1️⃣",
             "type": "trojan",
-            "server": "103.214.68.57",
-            "server_port": 10003,
-            "password": "6x8HcghsjS",
+            "server": "52.51.148.74",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.miwan.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
             }
         },
         {
