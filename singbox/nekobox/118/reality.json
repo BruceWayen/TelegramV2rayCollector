@@ -111,8 +111,7 @@
             "outbounds": [
                 "URL-TEST | رایگان",
                 "FI🇫🇮",
-                "DE🇩🇪",
-                "IR🇮🇷"
+                "DE🇩🇪"
             ]
         },
         {
@@ -122,7 +121,7 @@
                 "رایگان | REALITY | @EliV2ray | FI🇫🇮 | 0️⃣1️⃣",
                 "رایگان | REALITY | @ARv2ray | DE🇩🇪 | 0️⃣3️⃣",
                 "رایگان | REALITY | @V2rayCollectorDonate | DE🇩🇪 | 0️⃣3️⃣",
-                "رایگان | REALITY | @Good_V2rayy | IR🇮🇷 | 0️⃣1️⃣"
+                "رایگان | REALITY | @DailyV2RY | DE🇩🇪 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -143,17 +142,8 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | REALITY | @ARv2ray | DE🇩🇪 | 0️⃣3️⃣",
-                "رایگان | REALITY | @V2rayCollectorDonate | DE🇩🇪 | 0️⃣3️⃣"
-            ],
-            "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
-            "tolerance": 50
-        },
-        {
-            "tag": "IR🇮🇷",
-            "type": "urltest",
-            "outbounds": [
-                "رایگان | REALITY | @Good_V2rayy | IR🇮🇷 | 0️⃣1️⃣"
+                "رایگان | REALITY | @V2rayCollectorDonate | DE🇩🇪 | 0️⃣3️⃣",
+                "رایگان | REALITY | @DailyV2RY | DE🇩🇪 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -265,11 +255,11 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @Good_V2rayy | IR🇮🇷 | 0️⃣1️⃣",
+            "tag": "رایگان | REALITY | @DailyV2RY | DE🇩🇪 | 0️⃣2️⃣",
             "type": "vless",
-            "server": "pr.dadnetiran.xyz",
-            "server_port": 12754,
-            "uuid": "fa1661aa-a1e3-4b74-9a2d-1d4d62050bc5",
+            "server": "164.90.227.92",
+            "server_port": 2096,
+            "uuid": "c9e8bdf4-4bd7-487d-b744-5e655ac33606",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -279,17 +269,24 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "discord.com",
+                "server_name": "kitheath.com",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "7Ig5GBzwQkBPQ-3gEPgBjTt-6N14VNcW6qgsTW2dKxA",
-                    "short_id": "02085b77"
+                    "public_key": "HVpIhcSaX1U4OYc45MD-zVR-ixpVu_7vxbHPztr0rSg",
+                    "short_id": "92a0ad0f"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ZEDMODEON",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
