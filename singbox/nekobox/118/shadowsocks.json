@@ -114,6 +114,7 @@
                 "PL🇵🇱",
                 "GB🇬🇧",
                 "RU🇷🇺",
+                "CA🇨🇦",
                 "GI🇬🇮"
             ]
         },
@@ -122,7 +123,6 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | SS | @V2rayCollectorDonate | US🇺🇸 | 0️⃣1️⃣",
-                "رایگان | SS | @V2rayCollectorDonate | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | SS | @DeamNet_Proxy | PL🇵🇱 | 0️⃣1️⃣",
                 "رایگان | SS | @DeamNet_Proxy | PL🇵🇱 | 0️⃣2️⃣",
                 "رایگان | SS | @DeamNet_Proxy | PL🇵🇱 | 0️⃣3️⃣",
@@ -130,6 +130,7 @@
                 "رایگان | SS | @proxy_mtm | GB🇬🇧 | 0️⃣2️⃣",
                 "رایگان | SS | @proxy_mtm | GB🇬🇧 | 0️⃣3️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | RU🇷🇺 | 0️⃣1️⃣",
+                "رایگان | SS | @forwardv2ray | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | SS | @ROMAX_VPN | GI🇬🇮 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -140,8 +141,7 @@
             "tag": "US🇺🇸",
             "type": "urltest",
             "outbounds": [
-                "رایگان | SS | @V2rayCollectorDonate | US🇺🇸 | 0️⃣1️⃣",
-                "رایگان | SS | @V2rayCollectorDonate | US🇺🇸 | 0️⃣2️⃣"
+                "رایگان | SS | @V2rayCollectorDonate | US🇺🇸 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -182,6 +182,16 @@
             "tolerance": 50
         },
         {
+            "tag": "CA🇨🇦",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | SS | @forwardv2ray | CA🇨🇦 | 0️⃣1️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
             "tag": "GI🇬🇮",
             "type": "urltest",
             "outbounds": [
@@ -202,22 +212,12 @@
             "plugin_opts": ""
         },
         {
-            "tag": "رایگان | SS | @V2rayCollectorDonate | US🇺🇸 | 0️⃣2️⃣",
-            "type": "shadowsocks",
-            "server": "us2.dart-vpn.com",
-            "server_port": 443,
-            "method": "2022-blake3-aes-256-gcm",
-            "password": "R1lKGvLE9llrsrE8+ljScaTSOPTZz3LZGavn9O3XphU=",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
             "tag": "رایگان | SS | @DeamNet_Proxy | PL🇵🇱 | 0️⃣1️⃣",
             "type": "shadowsocks",
             "server": "51.77.53.200",
-            "server_port": 2375,
+            "server_port": 3306,
             "method": "aes-256-gcm",
-            "password": "faBAoD54k87UJG7",
+            "password": "Y6R9pAtvxxzmGC",
             "plugin": "",
             "plugin_opts": ""
         },
@@ -225,9 +225,9 @@
             "tag": "رایگان | SS | @DeamNet_Proxy | PL🇵🇱 | 0️⃣2️⃣",
             "type": "shadowsocks",
             "server": "51.77.53.200",
-            "server_port": 9102,
+            "server_port": 7306,
             "method": "aes-256-gcm",
-            "password": "e4FCWrgpkji3QY",
+            "password": "FoOiGlkAA9yPEGP",
             "plugin": "",
             "plugin_opts": ""
         },
@@ -235,7 +235,7 @@
             "tag": "رایگان | SS | @DeamNet_Proxy | PL🇵🇱 | 0️⃣3️⃣",
             "type": "shadowsocks",
             "server": "51.77.53.200",
-            "server_port": 8009,
+            "server_port": 8008,
             "method": "aes-256-gcm",
             "password": "XKFKl2rULjIp74",
             "plugin": "",
@@ -278,6 +278,16 @@
             "server_port": 12949,
             "method": "chacha20-ietf-poly1305",
             "password": "P2zxXPewlV3BlfqqYiSthvtLc",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "رایگان | SS | @forwardv2ray | CA🇨🇦 | 0️⃣1️⃣",
+            "type": "shadowsocks",
+            "server": "toronto.telegavpn.org",
+            "server_port": 31024,
+            "method": "chacha20-ietf-poly1305",
+            "password": "SknTii7Ogmhie8gSDsSMmL",
             "plugin": "",
             "plugin_opts": ""
         },
