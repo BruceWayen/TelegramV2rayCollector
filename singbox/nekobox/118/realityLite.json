@@ -112,7 +112,7 @@
                 "URL-TEST | رایگان",
                 "رایگان | REALITY | @VmessProtocol | IR🇮🇷 | 0️⃣2️⃣",
                 "رایگان | REALITY | @Outlinev2rayNG | DE🇩🇪 | 0️⃣2️⃣",
-                "رایگان | REALITY | @forwardv2ray | DE🇩🇪 | 0️⃣2️⃣"
+                "رایگان | REALITY | @forwardv2ray | FI🇫🇮 | 0️⃣2️⃣"
             ]
         },
         {
@@ -121,7 +121,7 @@
             "outbounds": [
                 "رایگان | REALITY | @VmessProtocol | IR🇮🇷 | 0️⃣2️⃣",
                 "رایگان | REALITY | @Outlinev2rayNG | DE🇩🇪 | 0️⃣2️⃣",
-                "رایگان | REALITY | @forwardv2ray | DE🇩🇪 | 0️⃣2️⃣"
+                "رایگان | REALITY | @forwardv2ray | FI🇫🇮 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -191,11 +191,11 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @forwardv2ray | DE🇩🇪 | 0️⃣2️⃣",
+            "tag": "رایگان | REALITY | @forwardv2ray | FI🇫🇮 | 0️⃣2️⃣",
             "type": "vless",
-            "server": "195.201.95.87",
+            "server": "65.109.243.221",
             "server_port": 443,
-            "uuid": "ce6b3694-9d3b-4c5c-a67a-f563b118b340",
+            "uuid": "---Parsashonam---",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -205,21 +205,21 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "tag.ArV2ray.shop",
+                "server_name": "www.trycloudflare.blog",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "Q3y0_QyEQkGtbAKzq6Pa_5j0d3pVexr2MnvCGljTJhM",
-                    "short_id": "ae60b637"
+                    "public_key": "1SmTnwW2z8rBQPvcKyLTWZo16vkmW612h7nXbGVVWQs",
+                    "short_id": "5ba51fa7"
                 }
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
+                "service_name": "",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
