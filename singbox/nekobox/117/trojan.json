@@ -111,8 +111,8 @@
                 "FR🇫🇷",
                 "IE🇮🇪",
                 "RELAY🚩",
-                "HK🇭🇰",
-                "ES🇪🇸"
+                "ES🇪🇸",
+                "KR🇰🇷"
             ]
         },
         {
@@ -122,19 +122,18 @@
                 "رایگان | TROJAN | @V2rayCollectorDonate | GB🇬🇧 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @PrivateVPNs | GB🇬🇧 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @PrivateVPNs | GB🇬🇧 | 0️⃣2️⃣",
-                "رایگان | TROJAN | @DirectVPN | GB🇬🇧 | 0️⃣2️⃣",
+                "رایگان | TROJAN | @DirectVPN | GB🇬🇧 | 0️⃣3️⃣",
                 "رایگان | TROJAN | @V2rayCollectorDonate | DE🇩🇪 | 0️⃣4️⃣",
                 "رایگان | TROJAN | @V2rayCollectorDonate | DE🇩🇪 | 0️⃣5️⃣",
-                "رایگان | TROJAN | @kingofilter | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @V2rayCollectorDonate | US🇺🇸 | 0️⃣7️⃣",
-                "رایگان | TROJAN | @oneclickvpnkeys | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @VmessProtocol | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @PrivateVPNs | FR🇫🇷 | 0️⃣3️⃣",
                 "رایگان | TROJAN | @DirectVPN | IE🇮🇪 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @oneclickvpnkeys | RELAY🚩 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @oneclickvpnkeys | HK🇭🇰 | 0️⃣3️⃣",
+                "رایگان | TROJAN | @oneclickvpnkeys | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @VmessProtocol | ES🇪🇸 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @VmessProtocol | ES🇪🇸 | 0️⃣3️⃣"
+                "رایگان | TROJAN | @VmessProtocol | ES🇪🇸 | 0️⃣3️⃣",
+                "رایگان | TROJAN | @yaney_01 | KR🇰🇷 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -147,7 +146,7 @@
                 "رایگان | TROJAN | @V2rayCollectorDonate | GB🇬🇧 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @PrivateVPNs | GB🇬🇧 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @PrivateVPNs | GB🇬🇧 | 0️⃣2️⃣",
-                "رایگان | TROJAN | @DirectVPN | GB🇬🇧 | 0️⃣2️⃣"
+                "رایگان | TROJAN | @DirectVPN | GB🇬🇧 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -158,8 +157,7 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | TROJAN | @V2rayCollectorDonate | DE🇩🇪 | 0️⃣4️⃣",
-                "رایگان | TROJAN | @V2rayCollectorDonate | DE🇩🇪 | 0️⃣5️⃣",
-                "رایگان | TROJAN | @kingofilter | DE🇩🇪 | 0️⃣1️⃣"
+                "رایگان | TROJAN | @V2rayCollectorDonate | DE🇩🇪 | 0️⃣5️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -170,7 +168,6 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | TROJAN | @V2rayCollectorDonate | US🇺🇸 | 0️⃣7️⃣",
-                "رایگان | TROJAN | @oneclickvpnkeys | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @VmessProtocol | US🇺🇸 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -201,17 +198,8 @@
             "tag": "RELAY🚩",
             "type": "urltest",
             "outbounds": [
-                "رایگان | TROJAN | @oneclickvpnkeys | RELAY🚩 | 0️⃣1️⃣"
-            ],
-            "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
-            "tolerance": 50
-        },
-        {
-            "tag": "HK🇭🇰",
-            "type": "urltest",
-            "outbounds": [
-                "رایگان | TROJAN | @oneclickvpnkeys | HK🇭🇰 | 0️⃣3️⃣"
+                "رایگان | TROJAN | @oneclickvpnkeys | RELAY🚩 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @oneclickvpnkeys | RELAY🚩 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -223,6 +211,16 @@
             "outbounds": [
                 "رایگان | TROJAN | @VmessProtocol | ES🇪🇸 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @VmessProtocol | ES🇪🇸 | 0️⃣3️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
+            "tag": "KR🇰🇷",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | TROJAN | @yaney_01 | KR🇰🇷 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -292,7 +290,7 @@
             }
         },
         {
-            "tag": "رایگان | TROJAN | @DirectVPN | GB🇬🇧 | 0️⃣2️⃣",
+            "tag": "رایگان | TROJAN | @DirectVPN | GB🇬🇧 | 0️⃣3️⃣",
             "type": "trojan",
             "server": "35.179.52.113",
             "server_port": 22222,
@@ -355,34 +353,6 @@
             }
         },
         {
-            "tag": "رایگان | TROJAN | @kingofilter | DE🇩🇪 | 0️⃣1️⃣",
-            "type": "trojan",
-            "server": "190.93.245.187",
-            "server_port": 2083,
-            "password": "1YcFVMZWx_OiEBEvnEMtrg",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "arv2.aticloud.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "arv2.aticloud.ir"
-                }
-            }
-        },
-        {
             "tag": "رایگان | TROJAN | @V2rayCollectorDonate | US🇺🇸 | 0️⃣7️⃣",
             "type": "trojan",
             "server": "alman.germaanpro.ir",
@@ -408,34 +378,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "رایگان | TROJAN | @oneclickvpnkeys | US🇺🇸 | 0️⃣2️⃣",
-            "type": "trojan",
-            "server": "clean1.freelines.net",
-            "server_port": 443,
-            "password": "61817e64-10ca-47be-97e8-9d6ff6aa2a5d",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "rsfrndc.foriran.trade",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/3D8U0cLhe2MGwH9c1eh1994",
-                "headers": {
-                    "Host": "rsfrndc.foriran.trade"
-                }
             }
         },
         {
@@ -537,11 +479,11 @@
             }
         },
         {
-            "tag": "رایگان | TROJAN | @oneclickvpnkeys | HK🇭🇰 | 0️⃣3️⃣",
+            "tag": "رایگان | TROJAN | @oneclickvpnkeys | RELAY🚩 | 0️⃣2️⃣",
             "type": "trojan",
-            "server": "202.64.1.167",
+            "server": "clean1.freelines.net",
             "server_port": 443,
-            "password": "7d378dbef52644e893d021491489447f",
+            "password": "61817e64-10ca-47be-97e8-9d6ff6aa2a5d",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -549,11 +491,18 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.gpt123.one",
+                "server_name": "rsfrndc.foriran.trade",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/3D8U0cLhe2MGwH9c1eh1994",
+                "headers": {
+                    "Host": "rsfrndc.foriran.trade"
                 }
             }
         },
@@ -611,6 +560,18 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "رایگان | TROJAN | @yaney_01 | KR🇰🇷 | 0️⃣1️⃣",
+            "type": "trojan",
+            "server": "103.214.68.57",
+            "server_port": 10003,
+            "password": "6x8HcghsjS",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
