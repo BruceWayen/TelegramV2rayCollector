@@ -109,7 +109,8 @@
                 "FI🇫🇮",
                 "DE🇩🇪",
                 "PL🇵🇱",
-                "FR🇫🇷"
+                "FR🇫🇷",
+                "SE🇸🇪"
             ]
         },
         {
@@ -117,11 +118,13 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | REALITY | @EliV2ray | GB🇬🇧 | 0️⃣2️⃣",
+                "رایگان | REALITY | @V2rayCollectorDonate | GB🇬🇧 | 0️⃣2️⃣",
                 "رایگان | REALITY | @EliV2ray | FI🇫🇮 | 0️⃣3️⃣",
-                "رایگان | REALITY | @V2rayCollectorDonate | FI🇫🇮 | 0️⃣2️⃣",
+                "رایگان | REALITY | @V2rayCollectorDonate | FI🇫🇮 | 0️⃣5️⃣",
                 "رایگان | REALITY | @V2pedia | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @V2rayCollectorDonate | PL🇵🇱 | 0️⃣1️⃣",
-                "رایگان | REALITY | @freeconfigv2 | FR🇫🇷 | 0️⃣1️⃣"
+                "رایگان | REALITY | @freeconfigv2 | FR🇫🇷 | 0️⃣1️⃣",
+                "رایگان | REALITY | @IBv2ray | SE🇸🇪 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -131,7 +134,8 @@
             "tag": "GB🇬🇧",
             "type": "urltest",
             "outbounds": [
-                "رایگان | REALITY | @EliV2ray | GB🇬🇧 | 0️⃣2️⃣"
+                "رایگان | REALITY | @EliV2ray | GB🇬🇧 | 0️⃣2️⃣",
+                "رایگان | REALITY | @V2rayCollectorDonate | GB🇬🇧 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -142,7 +146,7 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | REALITY | @EliV2ray | FI🇫🇮 | 0️⃣3️⃣",
-                "رایگان | REALITY | @V2rayCollectorDonate | FI🇫🇮 | 0️⃣2️⃣"
+                "رایگان | REALITY | @V2rayCollectorDonate | FI🇫🇮 | 0️⃣5️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -179,9 +183,54 @@
             "tolerance": 50
         },
         {
+            "tag": "SE🇸🇪",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | REALITY | @IBv2ray | SE🇸🇪 | 0️⃣2️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
             "tag": "رایگان | REALITY | @EliV2ray | GB🇬🇧 | 0️⃣2️⃣",
             "type": "vless",
             "server": "198.244.211.128",
+            "server_port": 26660,
+            "uuid": "b0bd8f69-f1bb-463b-9871-9c7430d061a3",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ea.com",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "HtcttM7t1OcuHNAtwnKH6XRmHyromTAy2yLapp9vamM",
+                    "short_id": "00bfc73e"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "رایگان | REALITY | @V2rayCollectorDonate | GB🇬🇧 | 0️⃣2️⃣",
+            "type": "vless",
+            "server": "uk.pubgji.eu.org",
             "server_port": 26660,
             "uuid": "b0bd8f69-f1bb-463b-9871-9c7430d061a3",
             "flow": "",
@@ -249,7 +298,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @V2rayCollectorDonate | FI🇫🇮 | 0️⃣2️⃣",
+            "tag": "رایگان | REALITY | @V2rayCollectorDonate | FI🇫🇮 | 0️⃣5️⃣",
             "type": "vless",
             "server": "m6m.pubgji.eu.org",
             "server_port": 10974,
@@ -371,6 +420,34 @@
                     "enabled": true,
                     "public_key": "UDABcxpKzAYkuyE4pmST0OSzEUJpQNuSgYIKcgppeh8",
                     "short_id": "d73382b02fa94fc2"
+                }
+            }
+        },
+        {
+            "tag": "رایگان | REALITY | @IBv2ray | SE🇸🇪 | 0️⃣2️⃣",
+            "type": "vless",
+            "server": "13.53.71.181",
+            "server_port": 80,
+            "uuid": "e7d3e8b2-7470-4ad2-9063-e0dfecb7a92b",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "71hRMNYTTn6cHxUzoQVeHaV2iIRq-A_zjSzDS0N2F2w",
+                    "short_id": "71d36706"
                 }
             }
         },
