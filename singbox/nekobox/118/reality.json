@@ -110,11 +110,10 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST | رایگان",
-                "US🇺🇸",
+                "RELAY🚩",
                 "RU🇷🇺",
                 "CZ🇨🇿",
                 "IR🇮🇷",
-                "FI🇫🇮",
                 "FR🇫🇷"
             ]
         },
@@ -122,14 +121,12 @@
             "tag": "URL-TEST | رایگان",
             "type": "urltest",
             "outbounds": [
-                "رایگان | REALITY | @ARv2ray | US🇺🇸 | 0️⃣2️⃣",
-                "رایگان | REALITY | @V2rayCollectorDonate | RU🇷🇺 | 0️⃣1️⃣",
-                "رایگان | REALITY | @V2rayCollectorDonate | CZ🇨🇿 | 1️⃣0️⃣",
-                "رایگان | REALITY | @V2rayCollectorDonate | IR🇮🇷 | 1️⃣4️⃣",
+                "رایگان | REALITY | @ARv2ray | RELAY🚩 | 0️⃣2️⃣",
+                "رایگان | REALITY | @V2rayCollectorDonate | RU🇷🇺 | 0️⃣2️⃣",
+                "رایگان | REALITY | @V2rayCollectorDonate | CZ🇨🇿 | 1️⃣1️⃣",
+                "رایگان | REALITY | @V2rayCollectorDonate | IR🇮🇷 | 1️⃣5️⃣",
                 "رایگان | REALITY | @ShadowProxy66 | IR🇮🇷 | 0️⃣1️⃣",
                 "رایگان | REALITY | @ShadowProxy66 | IR🇮🇷 | 0️⃣2️⃣",
-                "رایگان | REALITY | @ShadowProxy66 | IR🇮🇷 | 0️⃣3️⃣",
-                "رایگان | REALITY | @V2RayTz | FI🇫🇮 | 0️⃣2️⃣",
                 "رایگان | REALITY | @freeconfigv2 | FR🇫🇷 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -137,10 +134,10 @@
             "tolerance": 50
         },
         {
-            "tag": "US🇺🇸",
+            "tag": "RELAY🚩",
             "type": "urltest",
             "outbounds": [
-                "رایگان | REALITY | @ARv2ray | US🇺🇸 | 0️⃣2️⃣"
+                "رایگان | REALITY | @ARv2ray | RELAY🚩 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -150,7 +147,7 @@
             "tag": "RU🇷🇺",
             "type": "urltest",
             "outbounds": [
-                "رایگان | REALITY | @V2rayCollectorDonate | RU🇷🇺 | 0️⃣1️⃣"
+                "رایگان | REALITY | @V2rayCollectorDonate | RU🇷🇺 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -160,7 +157,7 @@
             "tag": "CZ🇨🇿",
             "type": "urltest",
             "outbounds": [
-                "رایگان | REALITY | @V2rayCollectorDonate | CZ🇨🇿 | 1️⃣0️⃣"
+                "رایگان | REALITY | @V2rayCollectorDonate | CZ🇨🇿 | 1️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -170,20 +167,9 @@
             "tag": "IR🇮🇷",
             "type": "urltest",
             "outbounds": [
-                "رایگان | REALITY | @V2rayCollectorDonate | IR🇮🇷 | 1️⃣4️⃣",
+                "رایگان | REALITY | @V2rayCollectorDonate | IR🇮🇷 | 1️⃣5️⃣",
                 "رایگان | REALITY | @ShadowProxy66 | IR🇮🇷 | 0️⃣1️⃣",
-                "رایگان | REALITY | @ShadowProxy66 | IR🇮🇷 | 0️⃣2️⃣",
-                "رایگان | REALITY | @ShadowProxy66 | IR🇮🇷 | 0️⃣3️⃣"
-            ],
-            "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
-            "tolerance": 50
-        },
-        {
-            "tag": "FI🇫🇮",
-            "type": "urltest",
-            "outbounds": [
-                "رایگان | REALITY | @V2RayTz | FI🇫🇮 | 0️⃣2️⃣"
+                "رایگان | REALITY | @ShadowProxy66 | IR🇮🇷 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -200,7 +186,7 @@
             "tolerance": 50
         },
         {
-            "tag": "رایگان | REALITY | @ARv2ray | US🇺🇸 | 0️⃣2️⃣",
+            "tag": "رایگان | REALITY | @ARv2ray | RELAY🚩 | 0️⃣2️⃣",
             "type": "vless",
             "server": "v2ti.fun",
             "server_port": 443,
@@ -235,7 +221,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @V2rayCollectorDonate | RU🇷🇺 | 0️⃣1️⃣",
+            "tag": "رایگان | REALITY | @V2rayCollectorDonate | RU🇷🇺 | 0️⃣2️⃣",
             "type": "vless",
             "server": "finland.nodes.mrzb.artydev.ru",
             "server_port": 8443,
@@ -263,7 +249,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @V2rayCollectorDonate | CZ🇨🇿 | 1️⃣0️⃣",
+            "tag": "رایگان | REALITY | @V2rayCollectorDonate | CZ🇨🇿 | 1️⃣1️⃣",
             "type": "vless",
             "server": "193.124.46.68",
             "server_port": 443,
@@ -291,7 +277,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @V2rayCollectorDonate | IR🇮🇷 | 1️⃣4️⃣",
+            "tag": "رایگان | REALITY | @V2rayCollectorDonate | IR🇮🇷 | 1️⃣5️⃣",
             "type": "vless",
             "server": "f41.maryam1500.top",
             "server_port": 2096,
@@ -328,34 +314,6 @@
         {
             "tag": "رایگان | REALITY | @ShadowProxy66 | IR🇮🇷 | 0️⃣1️⃣",
             "type": "vless",
-            "server": "128.140.97.199",
-            "server_port": 52606,
-            "uuid": "bbcac1db-e11c-4e8e-8421-442b910d2231",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "sourceforge.net",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "oC_KW2uWbqYBPZ33Ywhkr0N-n2rYDecWwQj87asCl2Y",
-                    "short_id": "f6159ff1"
-                }
-            }
-        },
-        {
-            "tag": "رایگان | REALITY | @ShadowProxy66 | IR🇮🇷 | 0️⃣2️⃣",
-            "type": "vless",
             "server": "91.107.249.241",
             "server_port": 39155,
             "uuid": "0cfa4b89-a6d8-4648-9048-78b24171c508",
@@ -382,7 +340,7 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @ShadowProxy66 | IR🇮🇷 | 0️⃣3️⃣",
+            "tag": "رایگان | REALITY | @ShadowProxy66 | IR🇮🇷 | 0️⃣2️⃣",
             "type": "vless",
             "server": "91.107.244.26",
             "server_port": 22710,
@@ -407,41 +365,6 @@
                     "public_key": "U7eH8h4h2edWICi90a2570pInOrQNo7pVGu0w6dHPkU",
                     "short_id": "7e69c512"
                 }
-            }
-        },
-        {
-            "tag": "رایگان | REALITY | @V2RayTz | FI🇫🇮 | 0️⃣2️⃣",
-            "type": "vless",
-            "server": "65.21.48.107",
-            "server_port": 443,
-            "uuid": "telegram-id-ArV2ray",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "greenpepper.ir",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "aHFxRl9sh2az1yaNNRP_1ThtfpPA58n9Af1mmcfQMkI",
-                    "short_id": "dc3352bf"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
