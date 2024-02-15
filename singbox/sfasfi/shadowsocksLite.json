@@ -114,7 +114,8 @@
                 "رایگان | SS | @VmessProtocol | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | SS | @VmessProtocol | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | RU🇷🇺 | 0️⃣1️⃣",
-                "رایگان | SS | @forwardv2ray | RU🇷🇺 | 0️⃣1️⃣",
+                "رایگان | SS | @forwardv2ray | CA🇨🇦 | 0️⃣1️⃣",
+                "رایگان | SS | @forwardv2ray | RU🇷🇺 | 0️⃣2️⃣",
                 "رایگان | SS | @kingofilter | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | SS | @ROMAX_VPN | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | SS | @ROMAX_VPN | GB🇬🇧 | 0️⃣2️⃣"
@@ -130,7 +131,8 @@
                 "رایگان | SS | @VmessProtocol | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | SS | @VmessProtocol | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | RU🇷🇺 | 0️⃣1️⃣",
-                "رایگان | SS | @forwardv2ray | RU🇷🇺 | 0️⃣1️⃣",
+                "رایگان | SS | @forwardv2ray | CA🇨🇦 | 0️⃣1️⃣",
+                "رایگان | SS | @forwardv2ray | RU🇷🇺 | 0️⃣2️⃣",
                 "رایگان | SS | @kingofilter | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | SS | @ROMAX_VPN | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | SS | @ROMAX_VPN | GB🇬🇧 | 0️⃣2️⃣"
@@ -200,7 +202,17 @@
             "plugin_opts": ""
         },
         {
-            "tag": "رایگان | SS | @forwardv2ray | RU🇷🇺 | 0️⃣1️⃣",
+            "tag": "رایگان | SS | @forwardv2ray | CA🇨🇦 | 0️⃣1️⃣",
+            "type": "shadowsocks",
+            "server": "toronto.telegavpn.org",
+            "server_port": 31024,
+            "method": "chacha20-ietf-poly1305",
+            "password": "hiAIBTn0Nzz6tTXEhlYaGM",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "رایگان | SS | @forwardv2ray | RU🇷🇺 | 0️⃣2️⃣",
             "type": "shadowsocks",
             "server": "45.139.24.63",
             "server_port": 57456,
