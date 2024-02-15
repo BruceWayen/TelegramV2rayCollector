@@ -110,9 +110,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST | رایگان",
-                "DE🇩🇪",
                 "IR🇮🇷",
-                "FI🇫🇮",
+                "DE🇩🇪",
                 "NL🇳🇱",
                 "FR🇫🇷"
             ]
@@ -121,24 +120,11 @@
             "tag": "URL-TEST | رایگان",
             "type": "urltest",
             "outbounds": [
-                "رایگان | REALITY | @V2RayTz | DE🇩🇪 | 0️⃣3️⃣",
-                "رایگان | REALITY | @forwardv2ray | DE🇩🇪 | 0️⃣3️⃣",
-                "رایگان | REALITY | @forwardv2ray | IR🇮🇷 | 0️⃣1️⃣",
+                "رایگان | REALITY | @V2rayCollectorDonate | IR🇮🇷 | 0️⃣2️⃣",
                 "رایگان | REALITY | @proxy_mtm | IR🇮🇷 | 0️⃣1️⃣",
-                "رایگان | REALITY | @forwardv2ray | FI🇫🇮 | 0️⃣2️⃣",
+                "رایگان | REALITY | @V2RayTz | DE🇩🇪 | 0️⃣3️⃣",
                 "رایگان | REALITY | @proxy_mtm | NL🇳🇱 | 0️⃣2️⃣",
                 "رایگان | REALITY | @freeconfigv2 | FR🇫🇷 | 0️⃣1️⃣"
-            ],
-            "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
-            "tolerance": 50
-        },
-        {
-            "tag": "DE🇩🇪",
-            "type": "urltest",
-            "outbounds": [
-                "رایگان | REALITY | @V2RayTz | DE🇩🇪 | 0️⃣3️⃣",
-                "رایگان | REALITY | @forwardv2ray | DE🇩🇪 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -148,7 +134,7 @@
             "tag": "IR🇮🇷",
             "type": "urltest",
             "outbounds": [
-                "رایگان | REALITY | @forwardv2ray | IR🇮🇷 | 0️⃣1️⃣",
+                "رایگان | REALITY | @V2rayCollectorDonate | IR🇮🇷 | 0️⃣2️⃣",
                 "رایگان | REALITY | @proxy_mtm | IR🇮🇷 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -156,10 +142,10 @@
             "tolerance": 50
         },
         {
-            "tag": "FI🇫🇮",
+            "tag": "DE🇩🇪",
             "type": "urltest",
             "outbounds": [
-                "رایگان | REALITY | @forwardv2ray | FI🇫🇮 | 0️⃣2️⃣"
+                "رایگان | REALITY | @V2RayTz | DE🇩🇪 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -186,11 +172,11 @@
             "tolerance": 50
         },
         {
-            "tag": "رایگان | REALITY | @V2RayTz | DE🇩🇪 | 0️⃣3️⃣",
+            "tag": "رایگان | REALITY | @V2rayCollectorDonate | IR🇮🇷 | 0️⃣2️⃣",
             "type": "vless",
-            "server": "49.13.133.229",
+            "server": "128.140.73.69",
             "server_port": 443,
-            "uuid": "telegram-id-ArV2ray",
+            "uuid": "021e1111-e6d9-4f6c-a1b8-03a70b6e4540",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -200,7 +186,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.cloudflare.com",
+                "server_name": "mail.albasir.in",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
@@ -208,83 +194,13 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "-mjMgFno1kihL7m7cmKw8XgxBkVdRCHgGL9dXrjDLgc",
-                    "short_id": "0c088b1a"
+                    "public_key": "pFIXFBUWlfxKzjMQG4k7RxZrtHbbROURhe61gbKTOzM",
+                    "short_id": "23e8beee"
                 }
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "رایگان | REALITY | @forwardv2ray | DE🇩🇪 | 0️⃣3️⃣",
-            "type": "vless",
-            "server": "159.223.17.211",
-            "server_port": 443,
-            "uuid": "82726ccd-17a3-4827-b06c-8da69b973602",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "dnschecker.org",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "-2iaaZuCAi7I9r4680lLC8p4krVTtEFq2xj6ylvpJUc",
-                    "short_id": "47890dea"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ipV2Ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "رایگان | REALITY | @forwardv2ray | IR🇮🇷 | 0️⃣1️⃣",
-            "type": "vless",
-            "server": "all.icv2ray.top",
-            "server_port": 25365,
-            "uuid": "35529d09-bc2a-47bf-a8bc-65703cd95247",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "sourceforge.net",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Z8VGv2kPcxu7pW1wXRW8lnpPq19TobF9YKrdlW3EBlU",
-                    "short_id": "fc790928"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ZEDMODEON-@ZEDMODEON-@ZEDMODEON",
+                "service_name": "@ASATeam_1",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -326,11 +242,11 @@
             }
         },
         {
-            "tag": "رایگان | REALITY | @forwardv2ray | FI🇫🇮 | 0️⃣2️⃣",
+            "tag": "رایگان | REALITY | @V2RayTz | DE🇩🇪 | 0️⃣3️⃣",
             "type": "vless",
-            "server": "95.217.222.125",
+            "server": "49.13.133.229",
             "server_port": 443,
-            "uuid": "fc6ef02f-aaca-477d-8609-c7c1537f8a6f",
+            "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -340,21 +256,21 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "s13.norbertpro.site",
+                "server_name": "www.cloudflare.com",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "uvwIRRB8ZUmTdcXmRkonO6Dh23b0RDa2iPRgWQUMFBw",
-                    "short_id": "7e4444ac"
+                    "public_key": "-mjMgFno1kihL7m7cmKw8XgxBkVdRCHgGL9dXrjDLgc",
+                    "short_id": "0c088b1a"
                 }
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "",
+                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
