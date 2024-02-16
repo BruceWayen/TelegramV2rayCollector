@@ -110,39 +110,28 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST | رایگان",
-                "RU🇷🇺",
                 "SE🇸🇪",
+                "RU🇷🇺",
                 "IE🇮🇪",
                 "US🇺🇸",
                 "RELAY🚩",
-                "CA🇨🇦",
-                "FR🇫🇷"
+                "CA🇨🇦"
             ]
         },
         {
             "tag": "URL-TEST | رایگان",
             "type": "urltest",
             "outbounds": [
-                "رایگان | TROJAN | @V2rayCollectorDonate | RU🇷🇺 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @V2rayCollectorDonate | SE🇸🇪 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @PrivateVPNs | SE🇸🇪 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @V2rayCollectorDonate | RU🇷🇺 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @PrivateVPNs | IE🇮🇪 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @PrivateVPNs | IE🇮🇪 | 0️⃣3️⃣",
                 "رایگان | TROJAN | @DirectVPN | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @oneclickvpnkeys | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @oneclickvpnkeys | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @fnet00 | RELAY🚩 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @V2RayTz | CA🇨🇦 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @FAKEOFTVC | FR🇫🇷 | 0️⃣1️⃣"
-            ],
-            "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
-            "tolerance": 50
-        },
-        {
-            "tag": "RU🇷🇺",
-            "type": "urltest",
-            "outbounds": [
-                "رایگان | TROJAN | @V2rayCollectorDonate | RU🇷🇺 | 0️⃣1️⃣"
+                "رایگان | TROJAN | @V2RayTz | CA🇨🇦 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -152,7 +141,18 @@
             "tag": "SE🇸🇪",
             "type": "urltest",
             "outbounds": [
+                "رایگان | TROJAN | @V2rayCollectorDonate | SE🇸🇪 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @PrivateVPNs | SE🇸🇪 | 0️⃣1️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
+            "tag": "RU🇷🇺",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | TROJAN | @V2rayCollectorDonate | RU🇷🇺 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -202,20 +202,10 @@
             "tolerance": 50
         },
         {
-            "tag": "FR🇫🇷",
-            "type": "urltest",
-            "outbounds": [
-                "رایگان | TROJAN | @FAKEOFTVC | FR🇫🇷 | 0️⃣1️⃣"
-            ],
-            "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
-            "tolerance": 50
-        },
-        {
-            "tag": "رایگان | TROJAN | @V2rayCollectorDonate | RU🇷🇺 | 0️⃣1️⃣",
+            "tag": "رایگان | TROJAN | @V2rayCollectorDonate | SE🇸🇪 | 0️⃣1️⃣",
             "type": "trojan",
-            "server": "ru01.bsawc.shop",
-            "server_port": 30005,
+            "server": "sg02.bsawc.shop",
+            "server_port": 51652,
             "password": "6a407a94-3fda-4946-a48c-2aa1ced31687",
             "multiplex": {
                 "enabled": false,
@@ -224,7 +214,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "ru01.bsawc.shop",
+                "server_name": "sg02.bsawc.shop",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -246,6 +236,27 @@
             "tls": {
                 "enabled": true,
                 "server_name": "trojan.miwan.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "رایگان | TROJAN | @V2rayCollectorDonate | RU🇷🇺 | 0️⃣2️⃣",
+            "type": "trojan",
+            "server": "ru01.bsawc.shop",
+            "server_port": 30005,
+            "password": "6a407a94-3fda-4946-a48c-2aa1ced31687",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ru01.bsawc.shop",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -414,27 +425,6 @@
             "tls": {
                 "enabled": true,
                 "server_name": "trojan.miwan.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "رایگان | TROJAN | @FAKEOFTVC | FR🇫🇷 | 0️⃣1️⃣",
-            "type": "trojan",
-            "server": "fr1.test3.net",
-            "server_port": 443,
-            "password": "147669c0-cbef-11ee-b2e9-1239d0255272",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "irancell.ir",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
