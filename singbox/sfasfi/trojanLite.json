@@ -111,14 +111,13 @@
                 "رایگان | TROJAN | @PrivateVPNs | GB🇬🇧 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @PrivateVPNs | FR🇫🇷 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @PrivateVPNs | FR🇫🇷 | 0️⃣3️⃣",
-                "رایگان | TROJAN | @DirectVPN | GB🇬🇧 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @DirectVPN | FR🇫🇷 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @DirectVPN | FR🇫🇷 | 0️⃣2️⃣",
-                "رایگان | TROJAN | @DirectVPN | FR🇫🇷 | 0️⃣3️⃣",
                 "رایگان | TROJAN | @oneclickvpnkeys | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @oneclickvpnkeys | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @V2RayTz | FR🇫🇷 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @V2RayTz | SE🇸🇪 | 0️⃣2️⃣",
-                "رایگان | TROJAN | @fnet00 | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @fnet00 | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @forwardv2ray | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @forwardv2ray | RU🇷🇺 | 0️⃣2️⃣"
             ]
@@ -130,14 +129,13 @@
                 "رایگان | TROJAN | @PrivateVPNs | GB🇬🇧 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @PrivateVPNs | FR🇫🇷 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @PrivateVPNs | FR🇫🇷 | 0️⃣3️⃣",
-                "رایگان | TROJAN | @DirectVPN | GB🇬🇧 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @DirectVPN | FR🇫🇷 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @DirectVPN | FR🇫🇷 | 0️⃣2️⃣",
-                "رایگان | TROJAN | @DirectVPN | FR🇫🇷 | 0️⃣3️⃣",
                 "رایگان | TROJAN | @oneclickvpnkeys | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @oneclickvpnkeys | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @V2RayTz | FR🇫🇷 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @V2RayTz | SE🇸🇪 | 0️⃣2️⃣",
-                "رایگان | TROJAN | @fnet00 | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @fnet00 | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @forwardv2ray | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @forwardv2ray | RU🇷🇺 | 0️⃣2️⃣"
             ],
@@ -209,28 +207,7 @@
             }
         },
         {
-            "tag": "رایگان | TROJAN | @DirectVPN | GB🇬🇧 | 0️⃣1️⃣",
-            "type": "trojan",
-            "server": "35.176.8.62",
-            "server_port": 22222,
-            "password": "telegram-id-directvpn",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.miwan.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "رایگان | TROJAN | @DirectVPN | FR🇫🇷 | 0️⃣2️⃣",
+            "tag": "رایگان | TROJAN | @DirectVPN | FR🇫🇷 | 0️⃣1️⃣",
             "type": "trojan",
             "server": "15.188.131.123",
             "server_port": 22222,
@@ -251,7 +228,7 @@
             }
         },
         {
-            "tag": "رایگان | TROJAN | @DirectVPN | FR🇫🇷 | 0️⃣3️⃣",
+            "tag": "رایگان | TROJAN | @DirectVPN | FR🇫🇷 | 0️⃣2️⃣",
             "type": "trojan",
             "server": "15.237.79.99",
             "server_port": 22222,
@@ -370,7 +347,7 @@
             }
         },
         {
-            "tag": "رایگان | TROJAN | @fnet00 | US🇺🇸 | 0️⃣1️⃣",
+            "tag": "رایگان | TROJAN | @fnet00 | RELAY🚩 | 0️⃣1️⃣",
             "type": "trojan",
             "server": "cdn13.cdn2cdn.com",
             "server_port": 2083,
