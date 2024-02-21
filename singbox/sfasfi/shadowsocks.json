@@ -108,49 +108,25 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST | رایگان",
-                "FR🇫🇷",
-                "US🇺🇸",
                 "DE🇩🇪",
+                "US🇺🇸",
                 "GB🇬🇧",
-                "RU🇷🇺",
-                "LU🇱🇺"
+                "RU🇷🇺"
             ]
         },
         {
             "tag": "URL-TEST | رایگان",
             "type": "urltest",
             "outbounds": [
-                "رایگان | SS | @DeamNet_Proxy | FR🇫🇷 | 0️⃣1️⃣",
-                "رایگان | SS | @DeamNet_Proxy | US🇺🇸 | 0️⃣2️⃣",
-                "رایگان | SS | @DeamNet_Proxy | US🇺🇸 | 0️⃣3️⃣",
+                "رایگان | SS | @DeamNet_Proxy | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | SS | @proxyymeliii | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | SS | @proxyymeliii | DE🇩🇪 | 0️⃣2️⃣",
+                "رایگان | SS | @DeamNet_Proxy | US🇺🇸 | 0️⃣3️⃣",
+                "رایگان | SS | @forwardv2ray | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | SS | @proxyymeliii | GB🇬🇧 | 0️⃣3️⃣",
                 "رایگان | SS | @kingofilter | GB🇬🇧 | 0️⃣1️⃣",
                 "رایگان | SS | @kingofilter | GB🇬🇧 | 0️⃣2️⃣",
-                "رایگان | SS | @OutlineVpnOfficial | RU🇷🇺 | 0️⃣1️⃣",
-                "رایگان | SS | @forwardv2ray | LU🇱🇺 | 0️⃣1️⃣"
-            ],
-            "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
-            "tolerance": 50
-        },
-        {
-            "tag": "FR🇫🇷",
-            "type": "urltest",
-            "outbounds": [
-                "رایگان | SS | @DeamNet_Proxy | FR🇫🇷 | 0️⃣1️⃣"
-            ],
-            "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
-            "tolerance": 50
-        },
-        {
-            "tag": "US🇺🇸",
-            "type": "urltest",
-            "outbounds": [
-                "رایگان | SS | @DeamNet_Proxy | US🇺🇸 | 0️⃣2️⃣",
-                "رایگان | SS | @DeamNet_Proxy | US🇺🇸 | 0️⃣3️⃣"
+                "رایگان | SS | @OutlineVpnOfficial | RU🇷🇺 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -160,8 +136,20 @@
             "tag": "DE🇩🇪",
             "type": "urltest",
             "outbounds": [
+                "رایگان | SS | @DeamNet_Proxy | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | SS | @proxyymeliii | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | SS | @proxyymeliii | DE🇩🇪 | 0️⃣2️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
+            "tag": "US🇺🇸",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | SS | @DeamNet_Proxy | US🇺🇸 | 0️⃣3️⃣",
+                "رایگان | SS | @forwardv2ray | US🇺🇸 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -190,42 +178,12 @@
             "tolerance": 50
         },
         {
-            "tag": "LU🇱🇺",
-            "type": "urltest",
-            "outbounds": [
-                "رایگان | SS | @forwardv2ray | LU🇱🇺 | 0️⃣1️⃣"
-            ],
-            "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
-            "tolerance": 50
-        },
-        {
-            "tag": "رایگان | SS | @DeamNet_Proxy | FR🇫🇷 | 0️⃣1️⃣",
+            "tag": "رایگان | SS | @DeamNet_Proxy | DE🇩🇪 | 0️⃣1️⃣",
             "type": "shadowsocks",
-            "server": "54.36.174.181",
+            "server": "145.239.1.100",
             "server_port": 5004,
             "method": "aes-256-gcm",
             "password": "g5MeD6Ft3CWlJId",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "رایگان | SS | @DeamNet_Proxy | US🇺🇸 | 0️⃣2️⃣",
-            "type": "shadowsocks",
-            "server": "216.39.250.78",
-            "server_port": 2375,
-            "method": "aes-256-gcm",
-            "password": "faBAoD54k87UJG7",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "رایگان | SS | @DeamNet_Proxy | US🇺🇸 | 0️⃣3️⃣",
-            "type": "shadowsocks",
-            "server": "passconf.xyz",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "a8bt9fY0QsLS6eLnXUe0Ym",
             "plugin": "",
             "plugin_opts": ""
         },
@@ -246,6 +204,26 @@
             "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
             "password": "7kxZc4xumaXvGy1v\/DR\/YP6tcOJmfdi3MkkjeIWNtf0=",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "رایگان | SS | @DeamNet_Proxy | US🇺🇸 | 0️⃣3️⃣",
+            "type": "shadowsocks",
+            "server": "passconf.xyz",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "qGjmI8WQlF0tfhDbkLqGdN",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "رایگان | SS | @forwardv2ray | US🇺🇸 | 0️⃣1️⃣",
+            "type": "shadowsocks",
+            "server": "172.233.51.96",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "XlUFgoOqDlVqlZFD3Js0YA",
             "plugin": "",
             "plugin_opts": ""
         },
@@ -286,16 +264,6 @@
             "server_port": 12949,
             "method": "chacha20-ietf-poly1305",
             "password": "P2zxXPewlV3BlfqqYiSthvtLc",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "رایگان | SS | @forwardv2ray | LU🇱🇺 | 0️⃣1️⃣",
-            "type": "shadowsocks",
-            "server": "185.249.135.180",
-            "server_port": 321,
-            "method": "chacha20-ietf-poly1305",
-            "password": "BSGHSeVqqx0oBmEGS43DNQ",
             "plugin": "",
             "plugin_opts": ""
         },
