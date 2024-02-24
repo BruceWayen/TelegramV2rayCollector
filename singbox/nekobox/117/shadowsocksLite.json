@@ -107,10 +107,11 @@
                 "URL-TEST | رایگان",
                 "رایگان | SS | @V2rayCollectorDonate | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | SS | @V2rayCollectorDonate | DE🇩🇪 | 0️⃣2️⃣",
-                "رایگان | SS | @V2rayCollectorDonate | SE🇸🇪 | 0️⃣4️⃣",
+                "رایگان | SS | @V2rayCollectorDonate | SE🇸🇪 | 0️⃣5️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | AT🇦🇹 | 0️⃣1️⃣",
                 "رایگان | SS | @forwardv2ray | GB🇬🇧 | 0️⃣1️⃣",
-                "رایگان | SS | @forwardv2ray | GB🇬🇧 | 0️⃣2️⃣",
+                "رایگان | SS | @forwardv2ray | RU🇷🇺 | 0️⃣2️⃣",
+                "رایگان | SS | @forwardv2ray | RU🇷🇺 | 0️⃣3️⃣",
                 "رایگان | SS | @kingofilter | GB🇬🇧 | 0️⃣1️⃣"
             ]
         },
@@ -120,10 +121,11 @@
             "outbounds": [
                 "رایگان | SS | @V2rayCollectorDonate | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | SS | @V2rayCollectorDonate | DE🇩🇪 | 0️⃣2️⃣",
-                "رایگان | SS | @V2rayCollectorDonate | SE🇸🇪 | 0️⃣4️⃣",
+                "رایگان | SS | @V2rayCollectorDonate | SE🇸🇪 | 0️⃣5️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | AT🇦🇹 | 0️⃣1️⃣",
                 "رایگان | SS | @forwardv2ray | GB🇬🇧 | 0️⃣1️⃣",
-                "رایگان | SS | @forwardv2ray | GB🇬🇧 | 0️⃣2️⃣",
+                "رایگان | SS | @forwardv2ray | RU🇷🇺 | 0️⃣2️⃣",
+                "رایگان | SS | @forwardv2ray | RU🇷🇺 | 0️⃣3️⃣",
                 "رایگان | SS | @kingofilter | GB🇬🇧 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -133,16 +135,6 @@
         {
             "tag": "رایگان | SS | @V2rayCollectorDonate | DE🇩🇪 | 0️⃣1️⃣",
             "type": "shadowsocks",
-            "server": "18.196.158.36",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "A4Gx7lQcx9QZbXR2HlvaEz+momZTtempQnz10EoMpts=",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "رایگان | SS | @V2rayCollectorDonate | DE🇩🇪 | 0️⃣2️⃣",
-            "type": "shadowsocks",
             "server": "3.127.224.163",
             "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
@@ -151,7 +143,17 @@
             "plugin_opts": ""
         },
         {
-            "tag": "رایگان | SS | @V2rayCollectorDonate | SE🇸🇪 | 0️⃣4️⃣",
+            "tag": "رایگان | SS | @V2rayCollectorDonate | DE🇩🇪 | 0️⃣2️⃣",
+            "type": "shadowsocks",
+            "server": "18.196.158.36",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "A4Gx7lQcx9QZbXR2HlvaEz+momZTtempQnz10EoMpts=",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "رایگان | SS | @V2rayCollectorDonate | SE🇸🇪 | 0️⃣5️⃣",
             "type": "shadowsocks",
             "server": "45.8.147.65",
             "server_port": 37219,
@@ -173,20 +175,30 @@
         {
             "tag": "رایگان | SS | @forwardv2ray | GB🇬🇧 | 0️⃣1️⃣",
             "type": "shadowsocks",
-            "server": "52.142.190.70",
-            "server_port": 13499,
+            "server": "series-a1.samanehha.co",
+            "server_port": 443,
             "method": "chacha20-ietf-poly1305",
-            "password": "K227sUvoII4iLfJJ4U0LLO",
+            "password": "W74XFALLLuw6m5IA",
             "plugin": "",
             "plugin_opts": ""
         },
         {
-            "tag": "رایگان | SS | @forwardv2ray | GB🇬🇧 | 0️⃣2️⃣",
+            "tag": "رایگان | SS | @forwardv2ray | RU🇷🇺 | 0️⃣2️⃣",
             "type": "shadowsocks",
-            "server": "51.142.173.34",
-            "server_port": 27842,
+            "server": "94.131.121.130",
+            "server_port": 49845,
             "method": "chacha20-ietf-poly1305",
-            "password": "f57zVblTQs60egXUizaq4Y",
+            "password": "U13qJ9LDNjIz8WZm2CQiGz",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "رایگان | SS | @forwardv2ray | RU🇷🇺 | 0️⃣3️⃣",
+            "type": "shadowsocks",
+            "server": "195.2.85.32",
+            "server_port": 56901,
+            "method": "chacha20-ietf-poly1305",
+            "password": "Qp41lJ1OBfcF4aTRKoLkRU",
             "plugin": "",
             "plugin_opts": ""
         },
