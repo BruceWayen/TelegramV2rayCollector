@@ -108,6 +108,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST | رایگان",
+                "DE🇩🇪",
                 "NL🇳🇱",
                 "FR🇫🇷"
             ]
@@ -116,8 +117,19 @@
             "tag": "URL-TEST | رایگان",
             "type": "urltest",
             "outbounds": [
+                "رایگان | REALITY | @lrnbymaa | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | REALITY | @v2rayng_vpnrog | NL🇳🇱 | 0️⃣2️⃣",
                 "رایگان | REALITY | @freeconfigv2 | FR🇫🇷 | 0️⃣1️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
+            "tag": "DE🇩🇪",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | REALITY | @lrnbymaa | DE🇩🇪 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -142,6 +154,34 @@
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
             "tolerance": 50
+        },
+        {
+            "tag": "رایگان | REALITY | @lrnbymaa | DE🇩🇪 | 0️⃣1️⃣",
+            "type": "vless",
+            "server": "ng.nourycazablanka.online",
+            "server_port": 11426,
+            "uuid": "0116c348-f32f-4e40-91c7-a90b5aae6495",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "xv9dgE3CwwjEFMGfEn3EXyUvH3qfotIeu9v2xxm4sg4",
+                    "short_id": "266b4610"
+                }
+            }
         },
         {
             "tag": "رایگان | REALITY | @v2rayng_vpnrog | NL🇳🇱 | 0️⃣2️⃣",
