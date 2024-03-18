@@ -107,8 +107,8 @@
                 "URL-TEST | رایگان",
                 "رایگان | SS | @DeamNet_Proxy | FR🇫🇷 | 0️⃣1️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | HK🇭🇰 | 0️⃣1️⃣",
-                "رایگان | SS | @forwardv2ray | FI🇫🇮 | 0️⃣1️⃣",
-                "رایگان | SS | @ROMAX_VPN | TR🇹🇷 | 0️⃣1️⃣"
+                "رایگان | SS | @ROMAX_VPN | TR🇹🇷 | 0️⃣1️⃣",
+                "رایگان | SS | @ROMAX_VPN | TR🇹🇷 | 0️⃣2️⃣"
             ]
         },
         {
@@ -117,8 +117,8 @@
             "outbounds": [
                 "رایگان | SS | @DeamNet_Proxy | FR🇫🇷 | 0️⃣1️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | HK🇭🇰 | 0️⃣1️⃣",
-                "رایگان | SS | @forwardv2ray | FI🇫🇮 | 0️⃣1️⃣",
-                "رایگان | SS | @ROMAX_VPN | TR🇹🇷 | 0️⃣1️⃣"
+                "رایگان | SS | @ROMAX_VPN | TR🇹🇷 | 0️⃣1️⃣",
+                "رایگان | SS | @ROMAX_VPN | TR🇹🇷 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -145,17 +145,17 @@
             "plugin_opts": ""
         },
         {
-            "tag": "رایگان | SS | @forwardv2ray | FI🇫🇮 | 0️⃣1️⃣",
+            "tag": "رایگان | SS | @ROMAX_VPN | TR🇹🇷 | 0️⃣1️⃣",
             "type": "shadowsocks",
-            "server": "139.28.220.18",
-            "server_port": 5700,
+            "server": "45.89.52.197",
+            "server_port": 32058,
             "method": "chacha20-ietf-poly1305",
-            "password": "UXoGWyjwDVZIl1WMuHtxSi",
+            "password": "Fgltbpm6cD9eHSFhKI6maC",
             "plugin": "",
             "plugin_opts": ""
         },
         {
-            "tag": "رایگان | SS | @ROMAX_VPN | TR🇹🇷 | 0️⃣1️⃣",
+            "tag": "رایگان | SS | @ROMAX_VPN | TR🇹🇷 | 0️⃣2️⃣",
             "type": "shadowsocks",
             "server": "95.164.11.94",
             "server_port": 1080,
