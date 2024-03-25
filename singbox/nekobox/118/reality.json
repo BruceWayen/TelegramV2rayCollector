@@ -110,6 +110,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST | رایگان",
+                "US🇺🇸",
                 "DE🇩🇪"
             ]
         },
@@ -117,7 +118,18 @@
             "tag": "URL-TEST | رایگان",
             "type": "urltest",
             "outbounds": [
+                "رایگان | REALITY | @forwardv2ray | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | REALITY | @kingofilter | DE🇩🇪 | 0️⃣1️⃣"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "5m",
+            "tolerance": 50
+        },
+        {
+            "tag": "US🇺🇸",
+            "type": "urltest",
+            "outbounds": [
+                "رایگان | REALITY | @forwardv2ray | US🇺🇸 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -132,6 +144,34 @@
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
             "tolerance": 50
+        },
+        {
+            "tag": "رایگان | REALITY | @forwardv2ray | US🇺🇸 | 0️⃣3️⃣",
+            "type": "vless",
+            "server": "104.168.107.230",
+            "server_port": 10036,
+            "uuid": "2e489a77-9fed-4d36-bd56-b51cf2312080",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "docker.com",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "UfGa2zABbIoc5pMPLXVKItxSq5uqc4rXf9nm86wCLGc",
+                    "short_id": "09c5a9652e0a1188"
+                }
+            }
         },
         {
             "tag": "رایگان | REALITY | @kingofilter | DE🇩🇪 | 0️⃣1️⃣",
