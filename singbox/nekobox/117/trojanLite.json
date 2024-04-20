@@ -112,9 +112,7 @@
                 "رایگان | TROJAN | @oneclickvpnkeys | ES🇪🇸 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @oneclickvpnkeys | KR🇰🇷 | 0️⃣3️⃣",
                 "رایگان | TROJAN | @VmessProtocol | RELAY🚩 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @ConfigsHUB | FR🇫🇷 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @ConfigsHUB | US🇺🇸 | 0️⃣2️⃣",
-                "رایگان | TROJAN | @yaney_01 | SG🇸🇬 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @ConfigsHUB | GB🇬🇧 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @kingofilter | RELAY🚩 | 0️⃣1️⃣"
             ]
         },
@@ -129,9 +127,7 @@
                 "رایگان | TROJAN | @oneclickvpnkeys | ES🇪🇸 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @oneclickvpnkeys | KR🇰🇷 | 0️⃣3️⃣",
                 "رایگان | TROJAN | @VmessProtocol | RELAY🚩 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @ConfigsHUB | FR🇫🇷 | 0️⃣1️⃣",
-                "رایگان | TROJAN | @ConfigsHUB | US🇺🇸 | 0️⃣2️⃣",
-                "رایگان | TROJAN | @yaney_01 | SG🇸🇬 | 0️⃣1️⃣",
+                "رایگان | TROJAN | @ConfigsHUB | GB🇬🇧 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @kingofilter | RELAY🚩 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -293,30 +289,9 @@
             }
         },
         {
-            "tag": "رایگان | TROJAN | @ConfigsHUB | FR🇫🇷 | 0️⃣1️⃣",
+            "tag": "رایگان | TROJAN | @ConfigsHUB | GB🇬🇧 | 0️⃣1️⃣",
             "type": "trojan",
-            "server": "15.236.127.233",
-            "server_port": 22222,
-            "password": "telegram-id-privatevpns",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "رایگان | TROJAN | @ConfigsHUB | US🇺🇸 | 0️⃣2️⃣",
-            "type": "trojan",
-            "server": "3.13.246.86",
+            "server": "18.169.21.203",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -332,18 +307,6 @@
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
-            }
-        },
-        {
-            "tag": "رایگان | TROJAN | @yaney_01 | SG🇸🇬 | 0️⃣1️⃣",
-            "type": "trojan",
-            "server": "sg01.freeflyingcloud.xyz",
-            "server_port": 35702,
-            "password": "63db084a-e2ce-46db-9dd6-d4ed2c3d2663",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
