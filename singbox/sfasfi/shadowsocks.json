@@ -113,7 +113,7 @@
                 "CA🇨🇦",
                 "AE🇦🇪",
                 "PL🇵🇱",
-                "ES🇪🇸"
+                "BH🇧🇭"
             ]
         },
         {
@@ -126,7 +126,7 @@
                 "رایگان | SS | @VmessProtocol | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | SS | @VmessProtocol | AE🇦🇪 | 0️⃣2️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | PL🇵🇱 | 0️⃣2️⃣",
-                "رایگان | SS | @ROMAX_VPN | ES🇪🇸 | 0️⃣1️⃣"
+                "رایگان | SS | @kingofilter | BH🇧🇭 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -184,10 +184,10 @@
             "tolerance": 50
         },
         {
-            "tag": "ES🇪🇸",
+            "tag": "BH🇧🇭",
             "type": "urltest",
             "outbounds": [
-                "رایگان | SS | @ROMAX_VPN | ES🇪🇸 | 0️⃣1️⃣"
+                "رایگان | SS | @kingofilter | BH🇧🇭 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -254,12 +254,12 @@
             "plugin_opts": ""
         },
         {
-            "tag": "رایگان | SS | @ROMAX_VPN | ES🇪🇸 | 0️⃣1️⃣",
+            "tag": "رایگان | SS | @kingofilter | BH🇧🇭 | 0️⃣1️⃣",
             "type": "shadowsocks",
-            "server": "85.90.217.65",
-            "server_port": 989,
-            "method": "aes-256-cfb",
-            "password": "f8f7aCzcPKbsF8p3",
+            "server": "series-a2-me.samanehha.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "Bog0ELmMM9DSxDdQ",
             "plugin": "",
             "plugin_opts": ""
         },
