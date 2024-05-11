@@ -159,6 +159,7 @@
                 "رایگان | VLESS | @DigiV2ray | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @DigiV2ray | SE🇸🇪 | 0️⃣3️⃣",
                 "رایگان | VLESS | @proxy_kafee | RELAY🚩 | 0️⃣1️⃣",
+                "رایگان | VLESS | @proxy_kafee | IR🇮🇷 | 0️⃣2️⃣",
                 "رایگان | VLESS | @v2logy | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @v2logy | SE🇸🇪 | 0️⃣3️⃣",
                 "رایگان | VLESS | @servermomo | RELAY🚩 | 0️⃣1️⃣",
@@ -340,6 +341,7 @@
                 "رایگان | VLESS | @DigiV2ray | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @DigiV2ray | SE🇸🇪 | 0️⃣3️⃣",
                 "رایگان | VLESS | @proxy_kafee | RELAY🚩 | 0️⃣1️⃣",
+                "رایگان | VLESS | @proxy_kafee | IR🇮🇷 | 0️⃣2️⃣",
                 "رایگان | VLESS | @v2logy | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VLESS | @v2logy | SE🇸🇪 | 0️⃣3️⃣",
                 "رایگان | VLESS | @servermomo | RELAY🚩 | 0️⃣1️⃣",
@@ -1852,6 +1854,20 @@
             }
         },
         {
+            "tag": "رایگان | VLESS | @proxy_kafee | IR🇮🇷 | 0️⃣2️⃣",
+            "type": "vless",
+            "server": "tnl5.radmehrmax.ir",
+            "server_port": 8097,
+            "uuid": "3cef3166-9c92-440b-9383-a220e68a930a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "رایگان | VLESS | @v2logy | US🇺🇸 | 0️⃣1️⃣",
             "type": "vless",
             "server": "blockchain-explorer.win7bitcasino1.com.",
@@ -2865,9 +2881,9 @@
         {
             "tag": "رایگان | VLESS | @vmessorg | US🇺🇸 | 0️⃣1️⃣",
             "type": "vless",
-            "server": "66.235.200.67",
+            "server": "66.235.200.129",
             "server_port": 8443,
-            "uuid": "ca9e46f9-6545-47ce-a6f5-66ad998092d0",
+            "uuid": "d3ee451d-3877-4c0a-858f-0b4e4a00de99",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2899,7 +2915,7 @@
             "type": "vless",
             "server": "104.17.233.221",
             "server_port": 80,
-            "uuid": "cb65e3ab-dd3a-41ea-b22a-8b4c016e8df2",
+            "uuid": "c26c925c-e489-4836-9efd-a5a6056d8e1e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2922,7 +2938,7 @@
             "type": "vless",
             "server": "104.17.250.237",
             "server_port": 80,
-            "uuid": "cb65e3ab-dd3a-41ea-b22a-8b4c016e8df2",
+            "uuid": "c26c925c-e489-4836-9efd-a5a6056d8e1e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
