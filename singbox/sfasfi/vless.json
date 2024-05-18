@@ -115,7 +115,6 @@
                 "NL🇳🇱",
                 "FR🇫🇷",
                 "DE🇩🇪",
-                "IR🇮🇷",
                 "CN🇨🇳",
                 "GB🇬🇧"
             ]
@@ -228,8 +227,8 @@
                 "رایگان | VLESS | @UnlimitedDev | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @UnlimitedDev | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @vmessorg | RELAY🚩 | 0️⃣3️⃣",
+                "رایگان | VLESS | @v2rayngvpn | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @v2rayngvpn | RELAY🚩 | 0️⃣2️⃣",
-                "رایگان | VLESS | @v2rayngvpn | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @FalconPolV2rayNG | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @ShadowProxy66 | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @ShadowProxy66 | RELAY🚩 | 0️⃣2️⃣",
@@ -294,7 +293,6 @@
                 "رایگان | VLESS | @frev2ray | NL🇳🇱 | 0️⃣1️⃣",
                 "رایگان | VLESS | @vpn_xw | FR🇫🇷 | 0️⃣2️⃣",
                 "رایگان | VLESS | @vpn_xw | DE🇩🇪 | 0️⃣3️⃣",
-                "رایگان | VLESS | @v2rayngvpn | IR🇮🇷 | 0️⃣1️⃣",
                 "رایگان | VLESS | @mehrosaboran | CN🇨🇳 | 0️⃣3️⃣",
                 "رایگان | REALITY | @ROMAX_VPN | GB🇬🇧 | 0️⃣1️⃣"
             ],
@@ -419,8 +417,8 @@
                 "رایگان | VLESS | @UnlimitedDev | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @UnlimitedDev | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @vmessorg | RELAY🚩 | 0️⃣3️⃣",
+                "رایگان | VLESS | @v2rayngvpn | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @v2rayngvpn | RELAY🚩 | 0️⃣2️⃣",
-                "رایگان | VLESS | @v2rayngvpn | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @FalconPolV2rayNG | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @ShadowProxy66 | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @ShadowProxy66 | RELAY🚩 | 0️⃣2️⃣",
@@ -530,16 +528,6 @@
             "type": "urltest",
             "outbounds": [
                 "رایگان | VLESS | @vpn_xw | DE🇩🇪 | 0️⃣3️⃣"
-            ],
-            "url": "https:\/\/www.gstatic.com\/generate_204",
-            "interval": "5m",
-            "tolerance": 50
-        },
-        {
-            "tag": "IR🇮🇷",
-            "type": "urltest",
-            "outbounds": [
-                "رایگان | VLESS | @v2rayngvpn | IR🇮🇷 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -3224,7 +3212,7 @@
             }
         },
         {
-            "tag": "رایگان | VLESS | @v2rayngvpn | RELAY🚩 | 0️⃣2️⃣",
+            "tag": "رایگان | VLESS | @v2rayngvpn | RELAY🚩 | 0️⃣1️⃣",
             "type": "vless",
             "server": "162.159.242.203",
             "server_port": 8080,
@@ -3247,7 +3235,7 @@
             }
         },
         {
-            "tag": "رایگان | VLESS | @v2rayngvpn | RELAY🚩 | 0️⃣3️⃣",
+            "tag": "رایگان | VLESS | @v2rayngvpn | RELAY🚩 | 0️⃣2️⃣",
             "type": "vless",
             "server": "www.visa.com.sg",
             "server_port": 8443,
@@ -5104,20 +5092,6 @@
             "server": "vpn-xw.unoix.co",
             "server_port": 26833,
             "uuid": "2e5bd822-eada-4ee2-8001-f4b57ac4c8f2",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @v2rayngvpn | IR🇮🇷 | 0️⃣1️⃣",
-            "type": "vless",
-            "server": "45.140.31.105",
-            "server_port": 48480,
-            "uuid": "f35905ae-9bce-448c-cbbb-e6de9b4e2949",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
