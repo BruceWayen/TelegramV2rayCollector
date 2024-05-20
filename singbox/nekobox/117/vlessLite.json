@@ -2729,6 +2729,29 @@
         {
             "tag": "رایگان | VLESS | @v2rayngvpn | RELAY🚩 | 0️⃣1️⃣",
             "type": "vless",
+            "server": "172.64.145.113",
+            "server_port": 8880,
+            "uuid": "9617c7cd-133b-4ed0-be84-fc7493223f8c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "falcunargo.3157c93401.workers.dev"
+                },
+                "max_early_data": 2048,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @v2rayngvpn | RELAY🚩 | 0️⃣2️⃣",
+            "type": "vless",
             "server": "104.18.202.232",
             "server_port": 2095,
             "uuid": "0bed96ca-36f8-4828-bc67-2e3b0cdb7f82",
@@ -2744,29 +2767,6 @@
                 "path": "\/puni_shop_v2rayNG",
                 "headers": {
                     "Host": "www.soft98.ir.www.myket.ir.发出来就被吞.website."
-                },
-                "max_early_data": 2048,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @v2rayngvpn | RELAY🚩 | 0️⃣2️⃣",
-            "type": "vless",
-            "server": "104.21.69.44",
-            "server_port": 80,
-            "uuid": "472530bc-89ec-47c6-a979-c48ca937525b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@custom_config",
-                "headers": {
-                    "Host": "6877383484.ir.www.zula.ir.xn--4all.king4usd.shop."
                 },
                 "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
