@@ -606,7 +606,7 @@
             "type": "vless",
             "server": "185.146.173.58",
             "server_port": 8080,
-            "uuid": "Parsashonam-73",
+            "uuid": "Parsashonam-72",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1742,7 +1742,7 @@
             "type": "vless",
             "server": "185.146.173.58",
             "server_port": 80,
-            "uuid": "9e8dfe50-b298-4c99-85e6-b9e55842dabe",
+            "uuid": "bia-PROXY_MTM",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1878,9 +1878,9 @@
         {
             "tag": "رایگان | VLESS | @Parsashonam | RELAY🚩 | 0️⃣1️⃣",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8080,
-            "uuid": "Parsashonam-73",
+            "server": "www.visa.com",
+            "server_port": 443,
+            "uuid": "Parsashonam-70",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1888,11 +1888,20 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "mail.offch.blog",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/?ed=2560",
                 "headers": {
-                    "Host": "Parsashonam.我们累了.tech."
+                    "Host": "mail.offch.blog"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -1903,7 +1912,7 @@
             "type": "vless",
             "server": "www.visa.com",
             "server_port": 8080,
-            "uuid": "Parsashonam-73",
+            "uuid": "Parsashonam-72",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -4535,7 +4544,7 @@
             "type": "vless",
             "server": "172.67.204.39",
             "server_port": 80,
-            "uuid": "9e8dfe50-b298-4c99-85e6-b9e55842dabe",
+            "uuid": "bia-PROXY_MTM",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -4558,7 +4567,7 @@
             "type": "vless",
             "server": "188.114.97.3",
             "server_port": 80,
-            "uuid": "9e8dfe50-b298-4c99-85e6-b9e55842dabe",
+            "uuid": "bia-PROXY_MTM",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
