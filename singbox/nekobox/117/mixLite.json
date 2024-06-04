@@ -309,9 +309,8 @@
                 "رایگان | SS | @VmessProtocol | GB🇬🇧 | 0️⃣1️⃣",
                 "رایگان | SS | @VmessProtocol | GB🇬🇧 | 0️⃣2️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | US🇺🇸 | 0️⃣1️⃣",
-                "رایگان | SS | @kingofilter | KZ🇰🇿 | 0️⃣1️⃣",
-                "رایگان | SS | @kingofilter | NL🇳🇱 | 0️⃣2️⃣",
-                "رایگان | SS | @kingofilter | FR🇫🇷 | 0️⃣3️⃣"
+                "رایگان | SS | @kingofilter | NL🇳🇱 | 0️⃣1️⃣",
+                "رایگان | SS | @kingofilter | FR🇫🇷 | 0️⃣2️⃣"
             ]
         },
         {
@@ -522,9 +521,8 @@
                 "رایگان | SS | @VmessProtocol | GB🇬🇧 | 0️⃣1️⃣",
                 "رایگان | SS | @VmessProtocol | GB🇬🇧 | 0️⃣2️⃣",
                 "رایگان | SS | @OutlineVpnOfficial | US🇺🇸 | 0️⃣1️⃣",
-                "رایگان | SS | @kingofilter | KZ🇰🇿 | 0️⃣1️⃣",
-                "رایگان | SS | @kingofilter | NL🇳🇱 | 0️⃣2️⃣",
-                "رایگان | SS | @kingofilter | FR🇫🇷 | 0️⃣3️⃣"
+                "رایگان | SS | @kingofilter | NL🇳🇱 | 0️⃣1️⃣",
+                "رایگان | SS | @kingofilter | FR🇫🇷 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -5328,9 +5326,9 @@
         {
             "tag": "رایگان | VLESS | @kiava | RELAY🚩 | 0️⃣1️⃣",
             "type": "vless",
-            "server": "blog.iranserver.com",
+            "server": "melonmusic.ir",
             "server_port": 8880,
-            "uuid": "935705ed-576b-45a1-fa6c-60e911678a68",
+            "uuid": "79dcfd28-02af-42fd-af73-232f31ae0201",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -5342,7 +5340,7 @@
                 "type": "ws",
                 "path": "\/kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava",
                 "headers": {
-                    "Host": "kiava.aws.amazon.com.fxp1.debian.org.speedtest.net.xn--mgba2h8quf.kiava.fun"
+                    "Host": "kiava.aws.amazon.com.fx.debian.org.speedtest.net.xn--mgba2h8quf.kiava.fun"
                 },
                 "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -5365,7 +5363,7 @@
                 "type": "ws",
                 "path": "\/kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava",
                 "headers": {
-                    "Host": "kiava.aws.amazon.com.fxp.debian.org.speedtest.net.xn--mgba2h8quf.kiava.fun"
+                    "Host": "kiava.aws.amazon.com.fxp1.debian.org.speedtest.net.xn--mgba2h8quf.kiava.fun"
                 },
                 "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -5375,8 +5373,8 @@
             "tag": "رایگان | VLESS | @kiava | RELAY🚩 | 0️⃣3️⃣",
             "type": "vless",
             "server": "blog.iranserver.com",
-            "server_port": 443,
-            "uuid": "42cb119a-73ec-4275-aaeb-4498e952ed60",
+            "server_port": 8880,
+            "uuid": "935705ed-576b-45a1-fa6c-60e911678a68",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -5384,22 +5382,13 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "ws-vm-de.kiava.fun",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed=2560",
+                "path": "\/kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava",
                 "headers": {
-                    "Host": "ws-vm-de.kiava.fun"
+                    "Host": "kiava.aws.amazon.com.fxp.debian.org.speedtest.net.xn--mgba2h8quf.kiava.fun"
                 },
-                "max_early_data": 0,
+                "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
@@ -5937,17 +5926,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "رایگان | SS | @kingofilter | KZ🇰🇿 | 0️⃣1️⃣",
-            "type": "shadowsocks",
-            "server": "188.94.155.82",
-            "server_port": 35152,
-            "method": "chacha20-ietf-poly1305",
-            "password": "XyM5x6p4CJ8dlb0y9mVHBK",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "رایگان | SS | @kingofilter | NL🇳🇱 | 0️⃣2️⃣",
+            "tag": "رایگان | SS | @kingofilter | NL🇳🇱 | 0️⃣1️⃣",
             "type": "shadowsocks",
             "server": "77.91.123.173",
             "server_port": 18332,
@@ -5957,7 +5936,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "رایگان | SS | @kingofilter | FR🇫🇷 | 0️⃣3️⃣",
+            "tag": "رایگان | SS | @kingofilter | FR🇫🇷 | 0️⃣2️⃣",
             "type": "shadowsocks",
             "server": "paris.telegavpn.com",
             "server_port": 9802,
