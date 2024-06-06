@@ -197,7 +197,6 @@
                 "رایگان | VLESS | @V2RayTz | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @VmessProtocol | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @VmessProtocol | RELAY🚩 | 0️⃣3️⃣",
-                "رایگان | VLESS | @DailyV2RY | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @sinabigo | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @sinabigo | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @lrnbymaa | RELAY🚩 | 0️⃣2️⃣",
@@ -382,7 +381,6 @@
                 "رایگان | VLESS | @V2RayTz | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @VmessProtocol | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @VmessProtocol | RELAY🚩 | 0️⃣3️⃣",
-                "رایگان | VLESS | @DailyV2RY | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @sinabigo | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @sinabigo | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @lrnbymaa | RELAY🚩 | 0️⃣2️⃣",
@@ -2592,29 +2590,6 @@
             }
         },
         {
-            "tag": "رایگان | VLESS | @DailyV2RY | RELAY🚩 | 0️⃣2️⃣",
-            "type": "vless",
-            "server": "Ld6.malimani.com",
-            "server_port": 80,
-            "uuid": "af309ad2-c943-48ea-b570-2e51a2f079d9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/DSDaswd22!11*fdfm55247.COM.",
-                "headers": {
-                    "Host": ""
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
             "tag": "رایگان | VLESS | @sinabigo | RELAY🚩 | 0️⃣1️⃣",
             "type": "vless",
             "server": "172.66.47.161",
@@ -4678,7 +4653,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "le7.nicolkidman.com",
+                "server_name": "le3.nicolkidman.com",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
@@ -4689,7 +4664,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "le7.nicolkidman.com"
+                    "Host": "le3.nicolkidman.com"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
