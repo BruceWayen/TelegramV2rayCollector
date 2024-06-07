@@ -121,15 +121,15 @@
                 "رایگان | VMESS | @yaney_01 | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VMESS | @Hope_Net | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | VMESS | @Hope_Net | RELAY🚩 | 0️⃣2️⃣",
-                "رایگان | VMESS | @Hope_Net | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VMESS | @v2rayng_config_amin | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VMESS | @v2rayng_config_amin | US🇺🇸 | 0️⃣2️⃣",
-                "رایگان | VMESS | @v2Line | RELAY🚩 | 0️⃣2️⃣",
+                "رایگان | VMESS | @v2Line | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | VMESS | @v2Line | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VMESS | @FreakConfig | NO🇳🇴 | 0️⃣1️⃣",
                 "رایگان | VMESS | @FreakConfig | GB🇬🇧 | 0️⃣2️⃣",
-                "رایگان | VMESS | @ROMAX_VPN | BE🇧🇪 | 0️⃣1️⃣",
+                "رایگان | VMESS | @ROMAX_VPN | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VMESS | @ROMAX_VPN | RELAY🚩 | 0️⃣2️⃣",
-                "رایگان | VMESS | @ROMAX_VPN | UA🇺🇦 | 0️⃣3️⃣"
+                "رایگان | VMESS | @ROMAX_VPN | RELAY🚩 | 0️⃣3️⃣"
             ]
         },
         {
@@ -152,15 +152,15 @@
                 "رایگان | VMESS | @yaney_01 | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VMESS | @Hope_Net | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | VMESS | @Hope_Net | RELAY🚩 | 0️⃣2️⃣",
-                "رایگان | VMESS | @Hope_Net | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VMESS | @v2rayng_config_amin | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VMESS | @v2rayng_config_amin | US🇺🇸 | 0️⃣2️⃣",
-                "رایگان | VMESS | @v2Line | RELAY🚩 | 0️⃣2️⃣",
+                "رایگان | VMESS | @v2Line | US🇺🇸 | 0️⃣1️⃣",
+                "رایگان | VMESS | @v2Line | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VMESS | @FreakConfig | NO🇳🇴 | 0️⃣1️⃣",
                 "رایگان | VMESS | @FreakConfig | GB🇬🇧 | 0️⃣2️⃣",
-                "رایگان | VMESS | @ROMAX_VPN | BE🇧🇪 | 0️⃣1️⃣",
+                "رایگان | VMESS | @ROMAX_VPN | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VMESS | @ROMAX_VPN | RELAY🚩 | 0️⃣2️⃣",
-                "رایگان | VMESS | @ROMAX_VPN | UA🇺🇦 | 0️⃣3️⃣"
+                "رایگان | VMESS | @ROMAX_VPN | RELAY🚩 | 0️⃣3️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -654,32 +654,6 @@
             }
         },
         {
-            "tag": "رایگان | VMESS | @Hope_Net | US🇺🇸 | 0️⃣3️⃣",
-            "type": "vmess",
-            "server": "107.173.146.129",
-            "server_port": 80,
-            "uuid": "5820093a-bb7d-4e15-8575-1a529f2d8282",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "107.173.146.129"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
             "tag": "رایگان | VMESS | @v2rayng_config_amin | RELAY🚩 | 0️⃣1️⃣",
             "type": "vmess",
             "server": "188.114.97.3",
@@ -752,7 +726,24 @@
             }
         },
         {
-            "tag": "رایگان | VMESS | @v2Line | RELAY🚩 | 0️⃣2️⃣",
+            "tag": "رایگان | VMESS | @v2Line | US🇺🇸 | 0️⃣1️⃣",
+            "type": "vmess",
+            "server": "50.114.243.61",
+            "server_port": 43834,
+            "uuid": "b246e34d-bbd1-4016-8f74-ea461c37e411",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "رایگان | VMESS | @v2Line | RELAY🚩 | 0️⃣3️⃣",
             "type": "vmess",
             "server": "us3e-mmnnfr9dop0.v2freevpn.com",
             "server_port": 80,
@@ -830,11 +821,11 @@
             }
         },
         {
-            "tag": "رایگان | VMESS | @ROMAX_VPN | BE🇧🇪 | 0️⃣1️⃣",
+            "tag": "رایگان | VMESS | @ROMAX_VPN | RELAY🚩 | 0️⃣1️⃣",
             "type": "vmess",
-            "server": "188.114.97.2",
+            "server": "104.21.4.6",
             "server_port": 443,
-            "uuid": "6d9911b0-4e14-44fb-8883-52d14f550cca",
+            "uuid": "1052f24e-7b09-45eb-b0c5-d858eb124192",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -847,7 +838,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "be2-vmess.sshmax.xyz",
+                "server_name": "glweidf.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -857,9 +848,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "be2-vmess.sshmax.xyz"
+                    "Host": "glweidf.cfd"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -868,9 +859,9 @@
         {
             "tag": "رایگان | VMESS | @ROMAX_VPN | RELAY🚩 | 0️⃣2️⃣",
             "type": "vmess",
-            "server": "104.21.71.88",
-            "server_port": 80,
-            "uuid": "2a8a10fb-9ca3-367e-a234-cf09f841be4f",
+            "server": "172.67.131.108",
+            "server_port": 443,
+            "uuid": "1052f24e-7b09-45eb-b0c5-d858eb124192",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -881,22 +872,32 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "glweidf.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/v118-fccxmxm35",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "us3e-mmnnfr9dop0.v2freevpn.com"
+                    "Host": "glweidf.cfd"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
         {
-            "tag": "رایگان | VMESS | @ROMAX_VPN | UA🇺🇦 | 0️⃣3️⃣",
+            "tag": "رایگان | VMESS | @ROMAX_VPN | RELAY🚩 | 0️⃣3️⃣",
             "type": "vmess",
-            "server": "172.67.166.192",
-            "server_port": 80,
-            "uuid": "cd1db809-2de0-409c-aef5-861e95eff53e",
+            "server": "172.67.71.160",
+            "server_port": 443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -907,11 +908,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "obdii.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/vmess",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "ua1-vmess.sshmax.xyz"
+                    "Host": "obdii.cfd"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
