@@ -459,9 +459,9 @@
         {
             "tag": "رایگان | VMESS | @ConfigsHUB | RELAY🚩 | 0️⃣1️⃣",
             "type": "vmess",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "cc142606-f36d-4004-bd2d-c5c2aa7efd4d",
+            "server": "zula.ir",
+            "server_port": 2096,
+            "uuid": "3a5bd596-9642-4816-ab00-e90fc611c682",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -472,11 +472,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "kingo.hightechservice.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/RACEVPN",
+                "path": "\/",
                 "headers": {
-                    "Host": "DeV2RaY.IsVpHp.IR."
+                    "Host": "kingo.hightechservice.ir"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -651,9 +661,9 @@
         {
             "tag": "رایگان | VMESS | @v2Line | RELAY🚩 | 0️⃣1️⃣",
             "type": "vmess",
-            "server": "zula.ir",
+            "server": "nodejs.org",
             "server_port": 443,
-            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
+            "uuid": "6b880b07-e952-4c0b-b4a3-6c9ac4cf9d3f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -666,7 +676,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "jahfkjha.cfd",
+                "server_name": "hdfy1c1.cpiforpersia.uk",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -676,9 +686,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/QvtvPdDXXIlSdZMqnuxG",
                 "headers": {
-                    "Host": "jahfkjha.cfd"
+                    "Host": "hdfy1c1.cpiforpersia.uk"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -687,7 +697,7 @@
         {
             "tag": "رایگان | VMESS | @v2Line | RELAY🚩 | 0️⃣2️⃣",
             "type": "vmess",
-            "server": "jahfkjha.cfd",
+            "server": "zula.ir",
             "server_port": 443,
             "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
             "security": "auto",
@@ -723,7 +733,7 @@
         {
             "tag": "رایگان | VMESS | @v2Line | RELAY🚩 | 0️⃣3️⃣",
             "type": "vmess",
-            "server": "zula.ir",
+            "server": "jahfkjha.cfd",
             "server_port": 443,
             "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
             "security": "auto",
