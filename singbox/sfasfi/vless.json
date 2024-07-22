@@ -216,6 +216,8 @@
                 "رایگان | VLESS | @V2RayTz | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @VmessProtocol | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @VmessProtocol | RELAY🚩 | 0️⃣3️⃣",
+                "رایگان | VLESS | @DailyV2RY | RELAY🚩 | 0️⃣1️⃣",
+                "رایگان | VLESS | @DailyV2RY | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @sinabigo | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @lrnbymaa | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @lrnbymaa | RELAY🚩 | 0️⃣3️⃣",
@@ -229,7 +231,6 @@
                 "رایگان | VLESS | @v2rayng_vpnrog | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @v2rayng_vpnrog | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @FreakConfig | RELAY🚩 | 0️⃣1️⃣",
-                "رایگان | VLESS | @FreakConfig | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @flyv2ray | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @flyv2ray | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @FAKEOFTVC | RELAY🚩 | 0️⃣2️⃣",
@@ -377,6 +378,8 @@
                 "رایگان | VLESS | @V2RayTz | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @VmessProtocol | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @VmessProtocol | RELAY🚩 | 0️⃣3️⃣",
+                "رایگان | VLESS | @DailyV2RY | RELAY🚩 | 0️⃣1️⃣",
+                "رایگان | VLESS | @DailyV2RY | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @sinabigo | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @lrnbymaa | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @lrnbymaa | RELAY🚩 | 0️⃣3️⃣",
@@ -390,7 +393,6 @@
                 "رایگان | VLESS | @v2rayng_vpnrog | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @v2rayng_vpnrog | RELAY🚩 | 0️⃣3️⃣",
                 "رایگان | VLESS | @FreakConfig | RELAY🚩 | 0️⃣1️⃣",
-                "رایگان | VLESS | @FreakConfig | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @flyv2ray | RELAY🚩 | 0️⃣1️⃣",
                 "رایگان | VLESS | @flyv2ray | RELAY🚩 | 0️⃣2️⃣",
                 "رایگان | VLESS | @FAKEOFTVC | RELAY🚩 | 0️⃣2️⃣",
@@ -2947,6 +2949,70 @@
             }
         },
         {
+            "tag": "رایگان | VLESS | @DailyV2RY | RELAY🚩 | 0️⃣1️⃣",
+            "type": "vless",
+            "server": "172.67.177.201",
+            "server_port": 443,
+            "uuid": "5af10469-3ec3-4353-94d2-297b7215a15b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "continuity.sasuke.ir",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ws",
+                "headers": {
+                    "Host": "continuity.sasuke.ir"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @DailyV2RY | RELAY🚩 | 0️⃣2️⃣",
+            "type": "vless",
+            "server": "speed.cloudflare.com",
+            "server_port": 443,
+            "uuid": "d41faf1e-054b-48e9-9487-40747f230808",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "f-dl.chawoshco.ir",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ws",
+                "headers": {
+                    "Host": "f-dl.chawoshco.ir"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
             "tag": "رایگان | VLESS | @sinabigo | RELAY🚩 | 0️⃣1️⃣",
             "type": "vless",
             "server": "www.speedtest.net",
@@ -3276,38 +3342,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "SgTbRzSl18.sAlEaLaMoHtArAm.cOm"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "رایگان | VLESS | @FreakConfig | RELAY🚩 | 0️⃣2️⃣",
-            "type": "vless",
-            "server": "172.67.177.201",
-            "server_port": 443,
-            "uuid": "5af10469-3ec3-4353-94d2-297b7215a15b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "continuity.sasuke.ir",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/ws",
-                "headers": {
-                    "Host": "continuity.sasuke.ir"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
